@@ -33,7 +33,7 @@
 
 <h2 align="center">🩸 &nbsp;CASE FILE #001 — THE DEVELOPER</h2>
 
-<img align="right" src="./assets/about.png" width="330" alt="Blood slide archive" />
+<img align="right" src="./assets/about.png" width="215" alt="Blood slide archive" />
 
 **Subject:** Talha Rizwan &nbsp;·&nbsp; **Status:** `SHIPPING`
 
