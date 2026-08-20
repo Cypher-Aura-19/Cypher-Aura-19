@@ -1,0 +1,46 @@
+name: Generate stat cards
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/scripts/generate-cards.mjs'
+      - '.github/workflows/cards.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # GITHUB_TOKEN unlocks the GraphQL contribution calendar, so the streak
+      # and spatter cards render real data instead of "AWAITING DATA".
+      - name: Generate SVG cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node .github/scripts/generate-cards.mjs
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cards/*.svg
+          if git diff --staged --quiet; then
+            echo "No card changes."
+          else
+            git commit -m "chore: refresh stat cards [skip ci]"
+            git push
+          fi

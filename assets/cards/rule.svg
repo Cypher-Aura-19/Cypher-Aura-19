@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="8" viewBox="0 0 880 8" role="img" aria-label="divider">
+  <title>divider</title>
+  <rect x="0" y="3" width="880" height="2" fill="#5C0A0F"/>
+  <rect x="0" y="3" width="299.20000000000005" height="2" fill="#E01B24"/>
+  <rect x="60" y="1" width="26" height="6" fill="#E01B24" opacity="0.9"/><rect x="250" y="1" width="26" height="6" fill="#E01B24" opacity="0.77"/><rect x="440" y="1" width="26" height="6" fill="#E01B24" opacity="0.64"/><rect x="630" y="1" width="26" height="6" fill="#E01B24" opacity="0.51"/><rect x="820" y="1" width="26" height="6" fill="#E01B24" opacity="0.38"/>
+</svg>
