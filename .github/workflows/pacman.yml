@@ -33,12 +33,16 @@ jobs:
             dist/snake-dark.svg?palette=github-dark&color_snake=#E01B24&color_dots=#161B22,#5C0A0F,#8E1219,#C1161F,#FF4C4C
             dist/snake.svg?palette=github-light&color_snake=#C1161F&color_dots=#F0E4E4,#F5B5B5,#E8737B,#D62D38,#A80D16
 
-      - name: Inline external images into SVG (fixes broken ghost icons)
+      # Only the arcade SVGs embed remote sprite images. The snake SVGs are
+      # self-contained AND are written by a Docker action running as root, so
+      # they are skipped here — rewriting them would fail on permissions.
+      - name: Inline external images into arcade SVGs (fixes broken ghost icons)
         run: |
           python3 - <<'EOF'
           import re, base64, glob, urllib.request
 
-          for path in glob.glob("dist/*.svg"):
+          paths = [p for p in glob.glob("dist/*.svg") if "snake" not in p]
+          for path in paths:
               with open(path, "r", encoding="utf-8") as f:
                   svg = f.read()
 
