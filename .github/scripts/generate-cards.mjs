@@ -163,12 +163,14 @@ function cardDossier(d) {
     H = 210;
   // Contribution-derived counts need GraphQL; show "—" rather than a false 0.
   const g = (n) => (d.gqKnown ? short(n) : '—');
+  const c = d.counts || { source: d.repos, forked: 0, public: d.repos };
   const stats = [
     ['COMMITS', g(d.commits)],
     ['PULL REQUESTS', g(d.prs)],
-    ['REPOSITORIES', short(d.repos)],
+    // Source + forked, so the total matches the profile's own repo tab.
+    ['REPOSITORIES', `${short(c.public)}`],
     ['STARS EARNED', short(d.stars)],
-    ['ISSUES CLOSED', g(d.issues)],
+    ['FORKED / SOURCE', `${short(c.forked)} / ${short(c.source)}`],
     ['FOLLOWERS', short(d.followers)],
   ];
 
@@ -203,7 +205,7 @@ function cardDossier(d) {
     STATUS <tspan fill="${T.red}" font-weight="700">● SHIPPING</tspan>
   </text>
   <text x="${W - 20}" y="${H - 12}" text-anchor="end" font-family="${MONO}" font-size="8"
-        letter-spacing="1.1" fill="${T.muted}">UPDATED ${esc(d.stamp)}</text>
+        letter-spacing="1.1" fill="${T.muted}">SYNCED ${esc(d.syncedAt || d.stamp)}</text>
 </svg>`;
 }
 
@@ -320,7 +322,7 @@ function cardStreak(s) {
 
 function cardHeatmap(cal) {
   const W = 880,
-    H = 205;
+    H = 252;
   const cell = 11,
     gap = 3,
     step = cell + gap;
@@ -329,10 +331,16 @@ function cardHeatmap(cal) {
 
   let grid = '';
   let monthLabels = '';
+  let tips = '';
 
   if (cal.known) {
     const weeks = cal.weeks;
     const max = Math.max(1, ...weeks.flatMap((w) => w.days.map((d) => d.count)));
+
+    // Busiest day per month becomes a tooltip stop, so the roving readout
+    // tours the year's highlights instead of 365 near-empty squares.
+    const monthPeaks = new Map();
+
     weeks.forEach((wk, wi) => {
       wk.days.forEach((day) => {
         let lvl = 0;
@@ -340,13 +348,71 @@ function cardHeatmap(cal) {
           const q = day.count / max;
           lvl = q > 0.66 ? 4 : q > 0.4 ? 3 : q > 0.15 ? 2 : 1;
         }
-        grid += `<rect x="${gx + wi * step}" y="${gy + day.weekday * step}" width="${cell}" height="${cell}" rx="2.5" fill="${HEAT[lvl]}"/>`;
+        const cxp = gx + wi * step;
+        const cyp = gy + day.weekday * step;
+        grid += `<rect x="${cxp}" y="${cyp}" width="${cell}" height="${cell}" rx="2.5" fill="${HEAT[lvl]}"/>`;
+
+        if (day.count > 0 && day.date) {
+          const mk = day.date.slice(0, 7);
+          const prev = monthPeaks.get(mk);
+          if (!prev || day.count > prev.count) {
+            monthPeaks.set(mk, { ...day, x: cxp, y: cyp });
+          }
+        }
       });
       if (wk.firstOfMonth) {
         monthLabels += `<text x="${gx + wi * step}" y="${gy - 9}" font-family="${MONO}" font-size="8.5"
           letter-spacing="1" fill="${T.muted}">${esc(wk.firstOfMonth)}</text>`;
       }
     });
+
+    /* Roving tooltip over each month's busiest day. camo strips :hover, so the
+       readout advances on a timer — the same detail GitHub shows on hover. */
+    const stops = [...monthPeaks.values()].sort((a, b) => a.date.localeCompare(b.date));
+    const dwell = 1.5;
+    const cycle = (stops.length * dwell).toFixed(2);
+    const tipW = 132,
+      tipH = 36;
+
+    tips = stops
+      .map((s, i) => {
+        const tx = Math.min(Math.max(s.x + cell / 2 - tipW / 2, 16), W - tipW - 16);
+        const ty = gy + 7 * step + 6;
+        const pct = ((i / stops.length) * 100).toFixed(3);
+        const pctEnd = (((i + 1) / stops.length) * 100).toFixed(3);
+        // Hold each stop for its whole slice and cross-fade at the boundary,
+        // so the readout band is never caught empty mid-cycle.
+        const fade = 0.25;
+        const nice = new Date(`${s.date}T00:00:00Z`).toLocaleDateString('en-US', {
+          weekday: 'short',
+          month: 'short',
+          day: 'numeric',
+          timeZone: 'UTC',
+        });
+        return `
+  <g class="tip" style="animation-name:h${i}">
+    <rect x="${s.x - 2}" y="${s.y - 2}" width="${cell + 4}" height="${cell + 4}" rx="3.5"
+          fill="none" stroke="${T.redBright}" stroke-width="1.6"/>
+    <rect x="${tx.toFixed(1)}" y="${ty}" width="${tipW}" height="${tipH}" rx="6"
+          fill="${T.panel}" stroke="${T.redDim}"/>
+    <text x="${(tx + 11).toFixed(1)}" y="${ty + 15}" font-family="${MONO}" font-size="8"
+          letter-spacing="1" fill="${T.muted}">${esc(nice.toUpperCase())}</text>
+    <text x="${(tx + 11).toFixed(1)}" y="${ty + 28}" font-family="${MONO}" font-size="11"
+          font-weight="700" fill="${T.text}">${s.count} <tspan font-size="7.5" font-weight="400"
+          fill="${T.muted}">CONTRIBUTION${s.count === 1 ? '' : 'S'}</tspan></text>
+  </g>
+  <style>@keyframes h${i}{
+    0%,${Math.max(0, Number(pct) - fade).toFixed(3)}%{opacity:0}
+    ${pct}%,${pctEnd}%{opacity:1}
+    ${Math.min(100, Number(pctEnd) + fade).toFixed(3)}%,100%{opacity:0}
+  }</style>`;
+      })
+      .join('');
+
+    // First stop appears immediately: an empty readout on load looks broken.
+    tips = `<style>.tip{opacity:0;animation-duration:${cycle}s;
+      animation-iteration-count:infinite;animation-timing-function:linear}
+      @media (prefers-reduced-motion:reduce){.tip{animation:none;opacity:0}}</style>${tips}`;
   } else {
     // No token: draw the empty grid so layout is visible, but do not fake counts.
     for (let w = 0; w < 53; w++)
@@ -364,22 +430,23 @@ function cardHeatmap(cal) {
 
   const legend = HEAT.map(
     (c, i) =>
-      `<rect x="${W - 128 + i * 15}" y="${H - 24}" width="11" height="11" rx="2.5" fill="${c}"/>`
+      `<rect x="${W - 128 + i * 15}" y="42" width="11" height="11" rx="2.5" fill="${c}"/>`
   ).join('');
 
   return `${svgOpen(W, H, `${USER} — contribution spatter pattern`)}
   ${styleBlock()}
   ${shell(W, H, 'SPATTER PATTERN · 52 WEEKS', cal.known ? `${nf(cal.total)} CONTRIBUTIONS` : 'AWAITING DATA')}
   <text x="20" y="50" font-family="${MONO}" font-size="8.5" letter-spacing="1.2" fill="${T.muted}">
-    EACH MARK IS ONE DAY OF EVIDENCE
+    READOUT TOURS EACH MONTH'S BUSIEST DAY
   </text>
   ${monthLabels}
   ${dayLabels}
   <g class="fi" style="animation-delay:120ms">${grid}</g>
-  <text x="${W - 146}" y="${H - 15}" text-anchor="end" font-family="${MONO}" font-size="8"
+  ${tips}
+  <text x="${W - 146}" y="51" text-anchor="end" font-family="${MONO}" font-size="8"
         letter-spacing="1.1" fill="${T.muted}">LESS</text>
   ${legend}
-  <text x="${W - 20}" y="${H - 15}" text-anchor="end" font-family="${MONO}" font-size="8"
+  <text x="${W - 20}" y="51" text-anchor="end" font-family="${MONO}" font-size="8"
         letter-spacing="1.1" fill="${T.muted}">MORE</text>
 </svg>`;
 }
@@ -425,51 +492,294 @@ function cardRepos(repos) {
 </svg>`;
 }
 
+/* ─────────────────── card: upstream open-source work ─────────────────── */
+
+/**
+ * External projects this user has landed work in, ranked by upstream stars.
+ *
+ * PR state is shown per project (merged / open / closed) so a drive-by patch
+ * never reads as an accepted contribution.
+ */
+function cardUpstream(up) {
+  const W = 880,
+    H = 250;
+
+  if (!up.known || !up.projects.length) {
+    return `${svgOpen(W, H, 'upstream contributions')}
+  ${styleBlock()}
+  ${shell(W, H, 'FIELD WORK · UPSTREAM CONTRIBUTIONS', 'AWAITING DATA')}
+  <text x="${W / 2}" y="${H / 2 + 4}" text-anchor="middle" font-family="${MONO}" font-size="11"
+        letter-spacing="1.4" fill="${T.muted}">AWAITING CONTRIBUTION DATA</text>
+</svg>`;
+  }
+
+  const top = up.projects.slice(0, 8);
+  const maxStars = Math.max(1, ...top.map((p) => p.stars));
+
+  const rowH = 21;
+  const y0 = 74;
+  const barX = 470;
+  const barMax = W - barX - 96;
+
+  const rows = top
+    .map((p, i) => {
+      const y = y0 + i * rowH;
+      const bw = Math.max(3, (p.stars / maxStars) * barMax);
+      // Merged work earns the bright red; unmerged stays dim and honest.
+      const col = p.merged > 0 ? T.redBright : RAMP[2];
+      const state =
+        p.merged > 0
+          ? `${p.merged} MERGED`
+          : p.open > 0
+            ? `${p.open} OPEN`
+            : p.closed > 0
+              ? 'CLOSED'
+              : 'COMMITS';
+      return `
+    <g class="fi" style="animation-delay:${110 + i * 60}ms">
+      <rect x="20" y="${y - 12}" width="3" height="15" fill="${col}"/>
+      <text x="31" y="${y}" font-family="${MONO}" font-size="10.5" fill="${T.text}">${esc(p.name.slice(0, 34))}</text>
+      <text x="330" y="${y}" font-family="${MONO}" font-size="8.5" letter-spacing="0.9"
+            fill="${p.merged > 0 ? T.redBright : T.muted}">${esc(state)}</text>
+      <rect x="${barX}" y="${y - 8}" width="${barMax}" height="9" rx="4.5" fill="${T.grid}"/>
+      <rect x="${barX}" y="${y - 8}" width="${bw.toFixed(1)}" height="9" rx="4.5" fill="${col}"/>
+      <text x="${W - 20}" y="${y}" text-anchor="end" font-family="${MONO}" font-size="9.5"
+            font-weight="700" fill="${T.muted}">${esc(short(p.stars))} ★</text>
+    </g>`;
+    })
+    .join('');
+
+  const reach = up.projects.reduce((a, p) => a + p.stars, 0);
+
+  return `${svgOpen(W, H, 'upstream open-source contributions')}
+  ${styleBlock()}
+  ${shell(W, H, 'FIELD WORK · UPSTREAM CONTRIBUTIONS', `${up.totalCount} PROJECTS`)}
+  <text x="20" y="50" font-family="${MONO}" font-size="8.5" letter-spacing="1.2" fill="${T.muted}">
+    OTHER PEOPLE'S CODEBASES I LEFT EVIDENCE IN · RANKED BY REACH
+  </text>
+  ${rows}
+  <rect x="20" y="${H - 27}" width="${W - 40}" height="1" fill="${T.line}"/>
+  <text x="20" y="${H - 12}" font-family="${MONO}" font-size="8" letter-spacing="1.1" fill="${T.muted}">
+    COMBINED REACH <tspan fill="${T.red}" font-weight="700">${esc(short(reach))} STARS</tspan>
+    <tspan fill="${T.line}"> │ </tspan>MERGED <tspan fill="${T.redBright}" font-weight="700">${up.merged}</tspan>
+  </text>
+  <text x="${W - 20}" y="${H - 12}" text-anchor="end" font-family="${MONO}" font-size="8"
+        letter-spacing="1.1" fill="${T.muted}">BRIGHT = MERGED UPSTREAM</text>
+</svg>`;
+}
+
+/* ─────────────────────────── card: quote ─────────────────────────── */
+
+/**
+ * Self-hosted replacement for quotes-github-readme.vercel.app, themed to the
+ * case-file aesthetic. The line is picked from the data stamp rather than
+ * Math.random() so a regenerated card is reproducible for a given day.
+ */
+function cardQuote(seed) {
+  const W = 880,
+    H = 132;
+
+  const lines = [
+    ['Tonight is the night. And it is going to happen', 'again and again.'],
+    ['I am not the monster he wants me to be,', 'so I am neither man nor beast.'],
+    ['There are no secrets in life,', 'just hidden truths that lie beneath the surface.'],
+    ['Blood. Sometimes it sets my teeth on edge,', 'other times it helps me control the chaos.'],
+    ['People fake a lot of human interactions,', 'but I feel like I fake them all.'],
+    ['I have a code. It keeps me in line.', 'Ship clean, leave no trace.'],
+  ];
+
+  const idx =
+    [...String(seed)].reduce((a, ch) => a + ch.charCodeAt(0), 0) % lines.length;
+  const [l1, l2] = lines[idx];
+
+  return `${svgOpen(W, H, 'quote of the day')}
+  ${styleBlock(`.cur{animation:blink 1.05s steps(1,end) infinite}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}`)}
+  ${shell(W, H, 'INTERROGATION LOG · ON THE RECORD', 'DEXTER MORGAN')}
+  <text x="30" y="50" font-family="${MONO}" font-size="30" font-weight="700"
+        fill="${T.redDeep}" opacity="0.9">&#8220;</text>
+  <g class="fi" style="animation-delay:120ms">
+    <text x="56" y="72" font-family="${MONO}" font-size="13" fill="${T.text}">${esc(l1)}</text>
+    <text x="56" y="93" font-family="${MONO}" font-size="13" fill="${T.text}">${esc(l2)}<tspan
+      class="cur" fill="${T.red}" font-weight="700">_</tspan></text>
+  </g>
+  <rect x="30" y="56" width="2" height="44" fill="${T.red}"/>
+  <text x="${W - 20}" y="${H - 14}" text-anchor="end" font-family="${MONO}" font-size="8"
+        letter-spacing="1.1" fill="${T.muted}">ROTATES DAILY</text>
+</svg>`;
+}
+
 /* ─────────────────────────── data gathering ─────────────────────────── */
+
+/**
+ * Repos + per-repo language bytes in one paginated GraphQL call.
+ *
+ * The REST `/users/:u/repos` route this used to call silently under-reports:
+ * it omits repos the token can see but the public listing hides, so the count
+ * came out at 47 against a real 86. GraphQL's `totalCount` is authoritative,
+ * and `languages` arrives inline instead of costing one REST call per repo.
+ */
+const REPOS_Q = `
+query($login:String!, $cursor:String){
+  user(login:$login){
+    name login createdAt
+    followers{ totalCount }
+    allRepos:    repositories(ownerAffiliations:OWNER){ totalCount }
+    publicRepos: repositories(ownerAffiliations:OWNER, privacy:PUBLIC){ totalCount }
+    forkedRepos: repositories(ownerAffiliations:OWNER, isFork:true){ totalCount }
+    repositories(ownerAffiliations:OWNER, isFork:false, first:100, after:$cursor,
+                 orderBy:{field:STARGAZERS, direction:DESC}){
+      totalCount
+      pageInfo{ hasNextPage endCursor }
+      nodes{
+        name description stargazerCount forkCount
+        primaryLanguage{ name }
+        languages(first:12, orderBy:{field:SIZE, direction:DESC}){
+          edges{ size node{ name } }
+        }
+      }
+    }
+  }
+}`;
+
+/** Upstream projects this user has landed work in, with per-repo PR state. */
+const UPSTREAM_Q = `
+query($login:String!){
+  user(login:$login){
+    repositoriesContributedTo(first:100, includeUserRepositories:false,
+        contributionTypes:[COMMIT, PULL_REQUEST, ISSUE, PULL_REQUEST_REVIEW],
+        orderBy:{field:STARGAZERS, direction:DESC}){
+      totalCount
+      nodes{ nameWithOwner stargazerCount primaryLanguage{ name } }
+    }
+    pullRequests(first:100, states:[OPEN,CLOSED,MERGED],
+        orderBy:{field:CREATED_AT, direction:DESC}){
+      totalCount
+      nodes{ state merged repository{ nameWithOwner stargazerCount primaryLanguage{ name } } }
+    }
+  }
+}`;
 
 async function gather() {
   const user = await api(`/users/${USER}`);
 
-  let repos = [];
-  if (LOCAL_REPOS && existsSync(LOCAL_REPOS)) {
-    repos = JSON.parse(readFileSync(LOCAL_REPOS, 'utf8'));
-    console.log(`using cached repo list (${repos.length})`);
-  } else {
-    for (let page = 1; page <= 5; page++) {
-      const batch = await api(`/users/${USER}/repos?per_page=100&page=${page}&sort=pushed`);
-      repos.push(...batch);
-      if (batch.length < 100) break;
+  /* ── repos + languages, straight from GraphQL ── */
+  let owned = [];
+  let counts = { all: 0, public: 0, forked: 0, source: 0 };
+  let gqUser = null;
+
+  if (TOKEN) {
+    let cursor = null;
+    for (let page = 0; page < 6; page++) {
+      const data = await graphql(REPOS_Q, { login: USER, cursor });
+      if (!data?.user) break;
+      gqUser = data.user;
+      const r = data.user.repositories;
+      owned.push(...r.nodes);
+      counts = {
+        all: data.user.allRepos.totalCount,
+        public: data.user.publicRepos.totalCount,
+        forked: data.user.forkedRepos.totalCount,
+        source: r.totalCount,
+      };
+      if (!r.pageInfo.hasNextPage) break;
+      cursor = r.pageInfo.endCursor;
     }
+    console.log(
+      `repos → ${counts.source} source · ${counts.forked} forked · ${counts.public} public · ${counts.all} total`
+    );
   }
 
-  const owned = repos.filter((r) => !r.fork);
-  const stars = owned.reduce((a, r) => a + r.stargazers_count, 0);
-  const forks = owned.reduce((a, r) => a + r.forks_count, 0);
-
-  /* languages: real byte counts when a token is available */
-  let langs = [];
-  let langUnit = 'bytes';
-  if (TOKEN) {
-    const totals = new Map();
-    const targets = owned.filter((r) => r.language).slice(0, 60);
-    for (const r of targets) {
-      try {
-        const bytes = await api(`/repos/${USER}/${r.name}/languages`);
-        for (const [lang, n] of Object.entries(bytes)) {
-          totals.set(lang, (totals.get(lang) || 0) + n);
-        }
-      } catch (e) {
-        console.warn(`WARN: languages for ${r.name}: ${e.message}`);
+  /* REST fallback keeps the script usable with no token, at lower fidelity. */
+  if (!owned.length) {
+    let rest = [];
+    if (LOCAL_REPOS && existsSync(LOCAL_REPOS)) {
+      rest = JSON.parse(readFileSync(LOCAL_REPOS, 'utf8'));
+      console.log(`using cached repo list (${rest.length})`);
+    } else {
+      for (let page = 1; page <= 5; page++) {
+        const batch = await api(`/users/${USER}/repos?per_page=100&page=${page}&sort=pushed`);
+        rest.push(...batch);
+        if (batch.length < 100) break;
       }
     }
-    langs = [...totals].map(([name, value]) => ({ name, value })).sort((a, b) => b.value - a.value);
+    owned = rest
+      .filter((r) => !r.fork)
+      .map((r) => ({
+        name: r.name,
+        description: r.description,
+        stargazerCount: r.stargazers_count,
+        forkCount: r.forks_count,
+        primaryLanguage: r.language ? { name: r.language } : null,
+        languages: { edges: [] },
+      }));
+    counts = {
+      all: user.public_repos,
+      public: user.public_repos,
+      forked: rest.length - owned.length,
+      source: owned.length,
+    };
   }
+
+  const stars = owned.reduce((a, r) => a + r.stargazerCount, 0);
+  const forks = owned.reduce((a, r) => a + r.forkCount, 0);
+
+  /* languages: real byte totals when GraphQL answered, repo counts otherwise */
+  let langs = [];
+  let langUnit = 'bytes';
+  const totals = new Map();
+  for (const r of owned) {
+    for (const e of r.languages?.edges || []) {
+      totals.set(e.node.name, (totals.get(e.node.name) || 0) + e.size);
+    }
+  }
+  langs = [...totals].map(([name, value]) => ({ name, value })).sort((a, b) => b.value - a.value);
   if (!langs.length) {
     const c = new Map();
-    for (const r of owned) if (r.language) c.set(r.language, (c.get(r.language) || 0) + 1);
+    for (const r of owned) {
+      const n = r.primaryLanguage?.name;
+      if (n) c.set(n, (c.get(n) || 0) + 1);
+    }
     langs = [...c].map(([name, value]) => ({ name, value })).sort((a, b) => b.value - a.value);
     langUnit = 'repos';
     console.log('note: language card using repository counts (no token)');
+  }
+
+  /* ── upstream open-source work ── */
+  const up = await graphql(UPSTREAM_Q, { login: USER });
+  let upstream = { known: false, projects: [], totalCount: 0, merged: 0 };
+
+  if (up?.user) {
+    // Fold PR state onto each project so the card can show merged vs open
+    // honestly, rather than implying every touch was accepted.
+    const byRepo = new Map();
+    const note = (nameWithOwner, stars, lang) => {
+      if (!byRepo.has(nameWithOwner)) {
+        byRepo.set(nameWithOwner, { name: nameWithOwner, stars, lang, merged: 0, open: 0, closed: 0 });
+      }
+      return byRepo.get(nameWithOwner);
+    };
+
+    for (const n of up.user.repositoriesContributedTo.nodes) {
+      note(n.nameWithOwner, n.stargazerCount, n.primaryLanguage?.name || null);
+    }
+    for (const pr of up.user.pullRequests.nodes) {
+      const r = pr.repository;
+      if (!r || r.nameWithOwner.split('/')[0].toLowerCase() === USER.toLowerCase()) continue;
+      const e = note(r.nameWithOwner, r.stargazerCount, r.primaryLanguage?.name || null);
+      if (pr.merged) e.merged++;
+      else if (pr.state === 'OPEN') e.open++;
+      else e.closed++;
+    }
+
+    const projects = [...byRepo.values()].sort((a, b) => b.stars - a.stars);
+    upstream = {
+      known: projects.length > 0,
+      projects,
+      totalCount: byRepo.size,
+      merged: projects.reduce((a, p) => a + p.merged, 0),
+    };
+    console.log(`upstream → ${upstream.totalCount} projects · ${upstream.merged} merged PRs`);
   }
 
   /* contributions + counts via GraphQL */
@@ -521,7 +831,11 @@ async function gather() {
         const prev = cc.contributionCalendar.weeks[i - 1]?.contributionDays[0];
         const showMonth = !prev || new Date(prev.date).getMonth() !== dt.getMonth();
         return {
-          days: w.contributionDays.map((d) => ({ count: d.contributionCount, weekday: d.weekday })),
+          days: w.contributionDays.map((d) => ({
+            count: d.contributionCount,
+            weekday: d.weekday,
+            date: d.date,
+          })),
           firstOfMonth: showMonth
             ? dt.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }).toUpperCase()
             : null,
@@ -594,28 +908,32 @@ async function gather() {
     .map((r) => ({
       name: r.name,
       desc: r.description,
-      stars: r.stargazers_count,
-      forks: r.forks_count,
-      lang: r.language,
+      stars: r.stargazerCount,
+      forks: r.forkCount,
+      lang: r.primaryLanguage?.name || null,
     }))
     .sort((a, b) => b.stars - a.stars || b.forks - a.forks)
     .slice(0, 4);
 
   const created = new Date(user.created_at);
+  const now = new Date();
   return {
     profile: {
-      name: user.name || user.login,
+      name: gqUser?.name || user.name || user.login,
       gqKnown: Boolean(gq?.user),
       commits,
       prs,
       issues,
-      repos: owned.length,
+      repos: counts.source,
+      counts,
       stars,
       forks,
       followers: user.followers,
       since: created.toLocaleString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }).toUpperCase(),
-      caseNo: String(owned.length).padStart(3, '0'),
-      stamp: new Date().toISOString().slice(0, 10),
+      caseNo: String(counts.public).padStart(3, '0'),
+      stamp: now.toISOString().slice(0, 10),
+      // Minute-precision stamp so the cards visibly prove how fresh the pull is.
+      syncedAt: `${now.toISOString().slice(0, 16).replace('T', ' ')} UTC`,
     },
     langs,
     langUnit,
@@ -625,6 +943,7 @@ async function gather() {
     weekday,
     mix,
     topRepos,
+    upstream,
   };
 }
 
@@ -706,9 +1025,58 @@ function cardAreaChart(series) {
   const peak = pts.reduce((a, b) => (b.value > a.value ? b : a), pts[0]);
   const peakI = pts.indexOf(peak);
 
+  /* Roving tooltip.
+     GitHub serves README images through camo as <img>, which blocks pointer
+     events, so a real :hover tooltip can never fire. Instead the tooltip
+     walks the series on a timer — same information a shadcn hover reveals,
+     delivered without needing a cursor. */
+  const dwell = 1.6; // seconds parked on each point
+  const cycle = (pts.length * dwell).toFixed(2);
+  const tipW = 96,
+    tipH = 34;
+
+  const tips = pts
+    .map((p, i) => {
+      const px = X(i);
+      const py = Y(p.value);
+      // Flip the tooltip inward at the edges so it never clips the frame.
+      const tx = Math.min(Math.max(px - tipW / 2, padL), W - padR - tipW);
+      const ty = Math.max(py - tipH - 12, padT + 2);
+      const pct = ((i / pts.length) * 100).toFixed(3);
+      const pctEnd = (((i + 1) / pts.length) * 100).toFixed(3);
+      // Hold for the full slice, cross-fade at the edges — never caught empty.
+      const fade = 0.25;
+      return `
+  <g class="tip" style="animation-name:t${i}">
+    <line x1="${px.toFixed(1)}" y1="${padT}" x2="${px.toFixed(1)}" y2="${(padT + ch).toFixed(1)}"
+          stroke="${T.redBright}" stroke-width="1" stroke-dasharray="2 3" opacity="0.55"/>
+    <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="4.5" fill="${T.redBright}"
+            stroke="${T.bg}" stroke-width="2"/>
+    <rect x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" width="${tipW}" height="${tipH}" rx="6"
+          fill="${T.panel}" stroke="${T.redDim}"/>
+    <text x="${(tx + 10).toFixed(1)}" y="${(ty + 14).toFixed(1)}" font-family="${MONO}"
+          font-size="8" letter-spacing="1.1" fill="${T.muted}">${esc(p.label)}</text>
+    <text x="${(tx + 10).toFixed(1)}" y="${(ty + 27).toFixed(1)}" font-family="${MONO}"
+          font-size="11" font-weight="700" fill="${T.text}">${p.value} <tspan
+          font-size="7.5" font-weight="400" fill="${T.muted}">CONTRIB</tspan></text>
+  </g>
+  <style>@keyframes t${i}{
+    0%,${Math.max(0, Number(pct) - fade).toFixed(3)}%{opacity:0}
+    ${pct}%,${pctEnd}%{opacity:1}
+    ${Math.min(100, Number(pctEnd) + fade).toFixed(3)}%,100%{opacity:0}
+  }</style>`;
+    })
+    .join('');
+
   return `${svgOpen(W, H, 'monthly contribution volume')}
   ${styleBlock(`.dr{stroke-dasharray:2600;stroke-dashoffset:0;animation:dr 1.5s ease-out forwards}
-    @keyframes dr{from{stroke-dashoffset:2600}}`)}
+    @keyframes dr{from{stroke-dashoffset:2600}}
+    .tip{opacity:0;animation-duration:${cycle}s;animation-iteration-count:infinite;
+         animation-timing-function:linear}
+    @media (prefers-reduced-motion:reduce){
+      .dr{animation:none}
+      .tip{animation:none;opacity:0}
+    }`)}
   <defs>
     <linearGradient id="ag" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="${T.red}" stop-opacity="0.42"/>
@@ -723,11 +1091,10 @@ function cardAreaChart(series) {
   ${yTicks}
   <path d="${area}" fill="url(#ag)" class="fi" style="animation-delay:200ms"/>
   <path d="${line}" fill="none" stroke="${T.red}" stroke-width="2.2" stroke-linecap="round" class="dr"/>
-  <line x1="${X(peakI).toFixed(1)}" y1="${padT}" x2="${X(peakI).toFixed(1)}" y2="${padT + ch}"
-        stroke="${T.redBright}" stroke-width="1" stroke-dasharray="2 3" opacity="0.5"/>
   <g class="fi" style="animation-delay:900ms">${dots}</g>
   <line x1="${padL}" y1="${padT + ch}" x2="${W - padR}" y2="${padT + ch}" stroke="${T.line}"/>
   ${xTicks}
+  ${tips}
 </svg>`;
 }
 
@@ -876,6 +1243,122 @@ function cardRule() {
 </svg>`;
 }
 
+/* ─────────────────── README data tables (real interactivity) ─────────────────── */
+
+/**
+ * Writes the exact figures behind every chart into the README's collapsible
+ * <details> block.
+ *
+ * GitHub serves README images through camo as <img>, so SVG :hover can never
+ * fire — a real hover tooltip is impossible. A <details> block is the one
+ * interaction GitHub does honour, so the precise numbers live there and are
+ * regenerated alongside the cards to guarantee they match.
+ */
+function renderDataTables(d) {
+  const rows = [];
+
+  rows.push(`**Synced** \`${d.profile.syncedAt}\` · **Source** GitHub GraphQL API\n`);
+
+  rows.push('#### Repositories\n');
+  rows.push('| Metric | Count |');
+  rows.push('| :-- | --: |');
+  rows.push(`| Public repositories | ${nf(d.profile.counts.public)} |`);
+  rows.push(`| Source (not forked) | ${nf(d.profile.counts.source)} |`);
+  rows.push(`| Forked | ${nf(d.profile.counts.forked)} |`);
+  rows.push(`| Stars earned | ${nf(d.profile.stars)} |`);
+  rows.push(`| Forks of my work | ${nf(d.profile.forks)} |`);
+  rows.push(`| Followers | ${nf(d.profile.followers)} |`);
+  rows.push('');
+
+  if (d.monthly.known) {
+    rows.push('#### Contributions per month\n');
+    rows.push(`| Month | ${d.monthly.points.map((p) => p.label).join(' | ')} |`);
+    rows.push(`| :-- | ${d.monthly.points.map(() => '--:').join(' | ')} |`);
+    rows.push(`| Count | ${d.monthly.points.map((p) => p.value).join(' | ')} |`);
+    rows.push('');
+  }
+
+  if (d.weekday.known) {
+    const names = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    rows.push('#### Contributions by weekday\n');
+    rows.push(`| Day | ${names.join(' | ')} |`);
+    rows.push(`| :-- | ${names.map(() => '--:').join(' | ')} |`);
+    rows.push(`| Count | ${d.weekday.values.join(' | ')} |`);
+    rows.push('');
+  }
+
+  if (d.mix.known) {
+    const total = d.mix.parts.reduce((a, p) => a + p.value, 0) || 1;
+    rows.push('#### Contribution mix\n');
+    rows.push('| Type | Count | Share |');
+    rows.push('| :-- | --: | --: |');
+    for (const p of d.mix.parts) {
+      rows.push(`| ${p.name} | ${nf(p.value)} | ${((p.value / total) * 100).toFixed(1)}% |`);
+    }
+    rows.push(`| **Total** | **${nf(total)}** | **100%** |`);
+    rows.push('');
+  }
+
+  if (d.langs.length) {
+    const total = d.langs.reduce((a, l) => a + l.value, 0) || 1;
+    const unit = d.langUnit === 'bytes' ? 'Bytes' : 'Repos';
+    rows.push('#### Languages\n');
+    rows.push(`| Language | ${unit} | Share |`);
+    rows.push('| :-- | --: | --: |');
+    for (const l of d.langs.slice(0, 10)) {
+      rows.push(`| ${l.name} | ${nf(l.value)} | ${((l.value / total) * 100).toFixed(1)}% |`);
+    }
+    rows.push('');
+  }
+
+  if (d.upstream.known) {
+    rows.push('#### Upstream projects contributed to\n');
+    rows.push('| Project | Stars | Merged | Open | Closed |');
+    rows.push('| :-- | --: | --: | --: | --: |');
+    for (const p of d.upstream.projects.slice(0, 20)) {
+      rows.push(
+        `| [${p.name}](https://github.com/${p.name}) | ${nf(p.stars)} | ${p.merged} | ${p.open} | ${p.closed} |`
+      );
+    }
+    rows.push('');
+  }
+
+  if (d.streak.known) {
+    rows.push('#### Streaks\n');
+    rows.push('| Metric | Value |');
+    rows.push('| :-- | --: |');
+    rows.push(`| Current streak | ${d.streak.current} days |`);
+    rows.push(`| Longest streak | ${d.streak.longest} days |`);
+    rows.push(`| Active days (last year) | ${d.streak.activeDays} |`);
+    rows.push(`| Total contributions | ${nf(d.streak.total)} |`);
+    rows.push('');
+  }
+
+  const block = rows.join('\n');
+  const README = 'README.md';
+  const START = '<!-- DATA-TABLES:START -->';
+  const END = '<!-- DATA-TABLES:END -->';
+
+  if (!existsSync(README)) {
+    console.warn('WARN: README.md not found — skipping data tables');
+    return;
+  }
+  const md = readFileSync(README, 'utf8');
+  const s = md.indexOf(START);
+  const e = md.indexOf(END);
+  if (s === -1 || e === -1) {
+    console.warn('WARN: DATA-TABLES markers missing — skipping data tables');
+    return;
+  }
+  const next = md.slice(0, s + START.length) + '\n\n' + block + '\n' + md.slice(e);
+  if (next !== md) {
+    writeFileSync(README, next, 'utf8');
+    console.log(`updated ${README} data tables (${block.length} bytes)`);
+  } else {
+    console.log('data tables unchanged');
+  }
+}
+
 /* ─────────────────────────── main ─────────────────────────── */
 
 const d = await gather();
@@ -885,7 +1368,10 @@ save('languages.svg', cardLanguages(d.langs, d.langUnit));
 save('streak.svg', cardStreak(d.streak));
 save('heatmap.svg', cardHeatmap(d.cal));
 save('repos.svg', cardRepos(d.topRepos));
+save('upstream.svg', cardUpstream(d.upstream));
 save('chart-area.svg', cardAreaChart(d.monthly));
 save('chart-bars.svg', cardBarChart(d.weekday));
 save('chart-donut.svg', cardDonut(d.mix));
+save('quote.svg', cardQuote(d.profile.stamp));
+renderDataTables(d);
 console.log('\ncards generated in', OUT_DIR);

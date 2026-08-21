@@ -2,11 +2,14 @@ name: Generate contribution graph games
 
 on:
   schedule:
-    - cron: "17 2 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - '.github/scripts/theme-arcade.py'
+      - '.github/workflows/pacman.yml'
 
 permissions:
   contents: write
@@ -16,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      # Needed for .github/scripts/theme-arcade.py below.
+      - uses: actions/checkout@v4
+
       # ── Arcade games: pacman + breakout + galaga, written to dist/ ──
       - name: Generate arcade contribution graph SVGs
         uses: abozanona/pacman-contribution-graph@v5.0.0
@@ -33,46 +39,14 @@ jobs:
             dist/snake-dark.svg?palette=github-dark&color_snake=#E01B24&color_dots=#161B22,#5C0A0F,#8E1219,#C1161F,#FF4C4C
             dist/snake.svg?palette=github-light&color_snake=#C1161F&color_dots=#F0E4E4,#F5B5B5,#E8737B,#D62D38,#A80D16
 
-      # Only the arcade SVGs embed remote sprite images. The snake SVGs are
-      # self-contained AND are written by a Docker action running as root, so
-      # they are skipped here — rewriting them would fail on permissions.
-      - name: Inline external images into arcade SVGs (fixes broken ghost icons)
-        run: |
-          python3 - <<'EOF'
-          import re, base64, glob, urllib.request
-
-          paths = [p for p in glob.glob("dist/*.svg") if "snake" not in p]
-          for path in paths:
-              with open(path, "r", encoding="utf-8") as f:
-                  svg = f.read()
-
-              def inline_image(match):
-                  attr, url = match.group(1), match.group(2)
-                  if url.startswith("data:"):
-                      return match.group(0)
-                  try:
-                      req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-                      data = urllib.request.urlopen(req, timeout=15).read()
-                      mime = "image/png"
-                      low = url.lower()
-                      if low.endswith(".gif"):
-                          mime = "image/gif"
-                      elif low.endswith((".jpg", ".jpeg")):
-                          mime = "image/jpeg"
-                      elif low.endswith(".svg"):
-                          mime = "image/svg+xml"
-                      b64 = base64.b64encode(data).decode()
-                      return f'{attr}="data:{mime};base64,{b64}"'
-                  except Exception as e:
-                      print(f"WARN: could not inline {url}: {e}")
-                      return match.group(0)
-
-              svg = re.sub(r'(xlink:href|href)="(https?://[^"]+)"', inline_image, svg)
-
-              with open(path, "w", encoding="utf-8") as f:
-                  f.write(svg)
-              print(f"Processed {path} ({len(svg)} bytes)")
-          EOF
+      # The arcade action hardcodes a GitHub-green palette and exposes no
+      # colour inputs, so the SVGs are repainted here. This step also inlines
+      # remote sprite images, which camo refuses to fetch from inside an SVG.
+      #
+      # The snake SVGs are skipped: already red, self-contained, and written
+      # by a Docker action running as root, so rewriting them fails.
+      - name: Theme arcade SVGs red and inline sprites
+        run: python3 .github/scripts/theme-arcade.py
 
       - name: List generated files
         run: ls -la dist/

@@ -2,7 +2,7 @@ name: Generate stat cards
 
 on:
   schedule:
-    - cron: "23 3 * * *"
+    - cron: "23 */3 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -37,7 +37,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/cards/*.svg
+          # README.md is staged too: the generator rewrites its data tables so
+          # the numbers in the <details> block always match the charts.
+          git add assets/cards/*.svg README.md
           if git diff --staged --quiet; then
             echo "No card changes."
           else
