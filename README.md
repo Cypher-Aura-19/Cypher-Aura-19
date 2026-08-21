@@ -1,7 +1,7 @@
 <!-- ═══════════════════════ COVER ═══════════════════════ -->
 
 <p align="center">
-  <img src="./assets/cover.png" alt="Talha Rizwan — Open Source Investigation" width="100%">
+  <img src="./assets/cover.webp" alt="Talha Rizwan — Open Source Investigation" width="100%">
 </p>
 
 <h1 align="center">Talha&nbsp;Rizwan</h1>
@@ -33,7 +33,7 @@
 
 <h2 align="center">🩸 &nbsp;CASE FILE #001 — THE DEVELOPER</h2>
 
-<img align="right" src="./assets/about.png" width="215" alt="Blood slide archive" />
+<img align="right" src="./assets/about.webp" width="215" alt="Blood slide archive" />
 
 **Subject:** Talha Rizwan &nbsp;·&nbsp; **Status:** `SHIPPING`
 
