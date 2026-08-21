@@ -136,15 +136,15 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-21 08:25 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-21 09:28 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
 | Metric | Count |
 | :-- | --: |
 | Public repositories | 86 |
-| Source (not forked) | 65 |
-| Forked | 29 |
+| Source (not forked) | 58 |
+| Forked | 28 |
 | Stars earned | 2 |
 | Forks of my work | 2 |
 | Followers | 6 |
@@ -153,33 +153,33 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | AUG | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 13 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 290 |
+| Count | 13 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 291 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 56 | 184 | 119 | 93 | 108 | 56 | 60 |
+| Count | 56 | 183 | 121 | 93 | 106 | 58 | 60 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 585 | 86.5% |
+| Commits | 586 | 86.6% |
 | Pull Requests | 29 | 4.3% |
 | Issues | 1 | 0.1% |
 | Repos Created | 61 | 9.0% |
-| **Total** | **676** | **100%** |
+| **Total** | **677** | **100%** |
 
 #### Languages
 
 | Language | Bytes | Share |
 | :-- | --: | --: |
-| TypeScript | 7,362,698 | 34.1% |
-| JavaScript | 6,095,379 | 28.2% |
-| HTML | 5,569,874 | 25.8% |
-| CSS | 1,970,832 | 9.1% |
-| Python | 574,410 | 2.7% |
+| TypeScript | 6,220,529 | 30.6% |
+| JavaScript | 6,074,293 | 29.9% |
+| HTML | 5,462,707 | 26.9% |
+| CSS | 1,939,390 | 9.5% |
+| Python | 574,410 | 2.8% |
 | TeX | 27,994 | 0.1% |
 | PLpgSQL | 11,293 | 0.1% |
 | Dockerfile | 2,900 | 0.0% |
@@ -189,19 +189,19 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,888 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,108 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,121 | 0 | 1 | 0 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,964 | 0 | 0 | 1 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,606 | 0 | 1 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,607 | 0 | 1 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,905 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,332 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,316 | 1 | 0 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,321 | 1 | 0 | 0 |
 | [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,155 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,406 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,407 | 0 | 1 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,025 | 0 | 1 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,656 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,644 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 681 | 1 | 0 | 0 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 511 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 515 | 0 | 0 | 1 |
 | [nuxt-modules/sitemap](https://github.com/nuxt-modules/sitemap) | 436 | 1 | 0 | 0 |
 | [unlayer/elements](https://github.com/unlayer/elements) | 395 | 1 | 0 | 0 |
 | [supabase/evals](https://github.com/supabase/evals) | 131 | 0 | 0 | 1 |
@@ -215,8 +215,8 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | :-- | --: |
 | Current streak | 13 days |
 | Longest streak | 19 days |
-| Active days (last year) | 95 |
-| Total contributions | 676 |
+| Active days (last year) | 96 |
+| Total contributions | 677 |
 
 <!-- DATA-TABLES:END -->
 
