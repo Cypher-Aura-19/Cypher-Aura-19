@@ -136,15 +136,15 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-21 11:38 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-21 11:40 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
 | Metric | Count |
 | :-- | --: |
 | Public repositories | 86 |
-| Source (not forked) | 65 |
-| Forked | 29 |
+| Source (not forked) | 58 |
+| Forked | 28 |
 | Stars earned | 2 |
 | Forks of my work | 2 |
 | Followers | 6 |
@@ -153,33 +153,33 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | AUG | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 13 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 294 |
+| Count | 13 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 295 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 56 | 184 | 119 | 93 | 108 | 60 | 60 |
+| Count | 56 | 183 | 121 | 93 | 106 | 62 | 60 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 589 | 86.6% |
+| Commits | 590 | 86.6% |
 | Pull Requests | 29 | 4.3% |
 | Issues | 1 | 0.1% |
 | Repos Created | 61 | 9.0% |
-| **Total** | **680** | **100%** |
+| **Total** | **681** | **100%** |
 
 #### Languages
 
 | Language | Bytes | Share |
 | :-- | --: | --: |
-| TypeScript | 7,362,698 | 34.1% |
-| JavaScript | 6,095,379 | 28.2% |
-| HTML | 5,569,874 | 25.8% |
-| CSS | 1,970,832 | 9.1% |
-| Python | 574,410 | 2.7% |
+| TypeScript | 6,220,529 | 30.6% |
+| JavaScript | 6,074,293 | 29.9% |
+| HTML | 5,462,707 | 26.9% |
+| CSS | 1,939,390 | 9.5% |
+| Python | 574,410 | 2.8% |
 | TeX | 27,994 | 0.1% |
 | PLpgSQL | 11,293 | 0.1% |
 | Dockerfile | 2,900 | 0.0% |
@@ -215,8 +215,8 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | :-- | --: |
 | Current streak | 13 days |
 | Longest streak | 19 days |
-| Active days (last year) | 95 |
-| Total contributions | 680 |
+| Active days (last year) | 96 |
+| Total contributions | 681 |
 
 <!-- DATA-TABLES:END -->
 
