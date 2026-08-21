@@ -1359,6 +1359,141 @@ function renderDataTables(d) {
   }
 }
 
+/* ───────────────── interactive heatmap (real hover) ─────────────────
+
+   The SVG heatmap above can never have a working tooltip: GitHub serves
+   README images through camo as a single flat <img>, so the browser sees
+   one hover target, not 365 squares. The only way to get a real per-day
+   tooltip is to make every day its own <img> with a `title` attribute —
+   `title` is one of the few attributes GitHub's sanitizer preserves.
+
+   That sounds expensive but isn't: the ramp has five colours, so this is
+   five tiny SVGs reused 365 times. Five HTTP requests, ~1KB total, and
+   every cell after the first is a cache hit.
+
+   Layout is constrained by what survives sanitization. `style` is stripped
+   from <td>/<p>, so line-height can't be set; one <tr> per weekday keeps
+   the rows tight without it. Month labels ride a colspan header row. */
+
+const CELL_PX = 13;
+
+function heatCellSvgs() {
+  // viewBox padding gives the 1px gutter that `gap` provides in the SVG card.
+  return HEAT.map(
+    (fill) =>
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${CELL_PX}" height="${CELL_PX}" viewBox="0 0 ${CELL_PX} ${CELL_PX}">` +
+      `<rect x="1" y="1" width="${CELL_PX - 2}" height="${CELL_PX - 2}" rx="2.5" fill="${fill}"/></svg>`
+  );
+}
+
+const DOW_FULL = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+const MON_FULL = [
+  'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
+  'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC',
+];
+
+/** Dexter-styled tooltip text: `WED, AUG 20 — 5 CONTRIBUTIONS`. */
+function tipText(day) {
+  const dt = new Date(`${day.date}T00:00:00Z`);
+  const dow = DOW_FULL[dt.getUTCDay()];
+  const mon = MON_FULL[dt.getUTCMonth()];
+  const n = day.count;
+  const label = n === 0 ? 'NO CONTRIBUTIONS' : `${nf(n)} CONTRIBUTION${n === 1 ? '' : 'S'}`;
+  return `${dow}, ${mon} ${dt.getUTCDate()} — ${label}`;
+}
+
+function renderHoverHeatmap(cal) {
+  const README = 'README.md';
+  const START = '<!-- HEATMAP-LIVE:START -->';
+  const END = '<!-- HEATMAP-LIVE:END -->';
+
+  if (!existsSync(README)) {
+    console.warn('WARN: README.md not found — skipping hover heatmap');
+    return;
+  }
+  const md = readFileSync(README, 'utf8');
+  const s = md.indexOf(START);
+  const e = md.indexOf(END);
+  if (s === -1 || e === -1) {
+    console.warn('WARN: HEATMAP-LIVE markers missing — skipping hover heatmap');
+    return;
+  }
+  if (!cal.known || !cal.weeks.length) {
+    console.warn('WARN: no calendar data — leaving hover heatmap untouched');
+    return;
+  }
+
+  heatCellSvgs().forEach((body, i) => save(`heat-${i}.svg`, body));
+
+  const weeks = cal.weeks;
+  const max = Math.max(1, ...weeks.flatMap((w) => w.days.map((d) => d.count)));
+  const level = (count) => {
+    if (count <= 0) return 0;
+    const q = count / max;
+    return q > 0.66 ? 4 : q > 0.4 ? 3 : q > 0.15 ? 2 : 1;
+  };
+
+  // Month header: one colspan per run of weeks sharing a month. Built from
+  // firstOfMonth, which the calendar already marks, so the labels line up
+  // with the same week columns the SVG card uses.
+  const spans = [];
+  weeks.forEach((wk, i) => {
+    if (wk.firstOfMonth && (spans.length === 0 || i > 0)) {
+      spans.push({ label: wk.firstOfMonth, n: 1 });
+    } else if (spans.length) {
+      spans[spans.length - 1].n += 1;
+    } else {
+      spans.push({ label: '', n: 1 });
+    }
+  });
+
+  const head =
+    '<tr><td></td>' +
+    spans.map((s2) => `<td colspan="${s2.n}"><sub>${esc(s2.label)}</sub></td>`).join('') +
+    '</tr>';
+
+  const sideLabels = ['', 'MON', '', 'WED', '', 'FRI', ''];
+  const rows = [];
+  for (let dow = 0; dow < 7; dow++) {
+    let tds = `<td><sub>${sideLabels[dow]}</sub></td>`;
+    for (const wk of weeks) {
+      const day = wk.days.find((d) => d.weekday === dow);
+      if (!day) {
+        // Partial first/last week: an empty cell keeps the column aligned.
+        tds += '<td></td>';
+        continue;
+      }
+      tds +=
+        `<td><img src="./assets/cards/heat-${level(day.count)}.svg" ` +
+        `width="${CELL_PX}" height="${CELL_PX}" title="${esc(tipText(day))}" alt=""></td>`;
+    }
+    rows.push(`<tr>${tds}</tr>`);
+  }
+
+  const legend =
+    '<p align="center"><sub>LESS ' +
+    HEAT.map(
+      (_, i) =>
+        `<img src="./assets/cards/heat-${i}.svg" width="${CELL_PX}" height="${CELL_PX}" alt="">`
+    ).join('') +
+    ' MORE &nbsp;·&nbsp; HOVER ANY DAY FOR ITS COUNT</sub></p>';
+
+  const block =
+    '<div align="center">\n\n' +
+    `<table cellspacing="0" cellpadding="0">${head}${rows.join('')}</table>\n\n` +
+    legend +
+    '\n\n</div>';
+
+  const next = md.slice(0, s + START.length) + '\n\n' + block + '\n\n' + md.slice(e);
+  if (next !== md) {
+    writeFileSync(README, next, 'utf8');
+    const cells = rows.join('').match(/<img/g)?.length || 0;
+    console.log(`updated ${README} hover heatmap (${cells} cells, 5 unique images)`);
+  } else {
+    console.log('hover heatmap unchanged');
+  }
+}
+
 /* ─────────────────────────── main ─────────────────────────── */
 
 const d = await gather();
@@ -1374,4 +1509,5 @@ save('chart-bars.svg', cardBarChart(d.weekday));
 save('chart-donut.svg', cardDonut(d.mix));
 save('quote.svg', cardQuote(d.profile.stamp));
 renderDataTables(d);
+renderHoverHeatmap(d.cal);
 console.log('\ncards generated in', OUT_DIR);
