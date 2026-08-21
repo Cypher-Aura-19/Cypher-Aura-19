@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-21 19:02 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-21 21:43 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -188,20 +188,20 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,889 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,228 | 0 | 1 | 0 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,964 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,890 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,260 | 0 | 1 | 0 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,967 | 0 | 0 | 1 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 25,610 | 0 | 1 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,905 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,334 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,344 | 1 | 0 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,347 | 1 | 0 | 0 |
 | [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,164 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,417 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,419 | 0 | 1 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,025 | 0 | 1 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,657 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,645 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 681 | 1 | 0 | 0 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 536 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 537 | 0 | 0 | 1 |
 | [nuxt-modules/sitemap](https://github.com/nuxt-modules/sitemap) | 437 | 1 | 0 | 0 |
 | [unlayer/elements](https://github.com/unlayer/elements) | 396 | 1 | 0 | 0 |
 | [supabase/evals](https://github.com/supabase/evals) | 131 | 0 | 0 | 1 |
