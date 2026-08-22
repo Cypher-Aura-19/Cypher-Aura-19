@@ -36,9 +36,9 @@
       <text x="330" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">1 OPEN</text>
       <rect x="470" y="87" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="87" width="132.4" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="87" width="132.5" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="95" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
-            font-weight="700" fill="#7D8590">38.3k ★</text>
+            font-weight="700" fill="#7D8590">38.4k ★</text>
     </g>
     <g class="fi" style="animation-delay:230ms">
       <rect x="20" y="104" width="3" height="15" fill="#E01B24"/>
@@ -86,9 +86,9 @@
       <text x="330" y="200" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#FF4C4C">1 MERGED</text>
       <rect x="470" y="192" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="192" width="35.7" height="9" rx="4.5" fill="#FF4C4C"/>
+      <rect x="470" y="192" width="35.8" height="9" rx="4.5" fill="#FF4C4C"/>
       <text x="860" y="200" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
-            font-weight="700" fill="#7D8590">10.3k ★</text>
+            font-weight="700" fill="#7D8590">10.4k ★</text>
     </g>
     <g class="fi" style="animation-delay:530ms">
       <rect x="20" y="209" width="3" height="15" fill="#E01B24"/>
