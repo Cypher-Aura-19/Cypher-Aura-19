@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-22 18:53 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-22 21:41 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,32 +153,32 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | AUG | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 13 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 345 |
+| Count | 13 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 347 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 56 | 183 | 121 | 93 | 106 | 67 | 105 |
+| Count | 56 | 183 | 121 | 93 | 106 | 67 | 107 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 636 | 87.0% |
+| Commits | 638 | 87.0% |
 | Pull Requests | 30 | 4.1% |
 | Issues | 1 | 0.1% |
-| Repos Created | 64 | 8.8% |
-| **Total** | **731** | **100%** |
+| Repos Created | 64 | 8.7% |
+| **Total** | **733** | **100%** |
 
 #### Languages
 
 | Language | Bytes | Share |
 | :-- | --: | --: |
-| JavaScript | 7,055,086 | 33.1% |
-| TypeScript | 6,220,529 | 29.2% |
-| HTML | 5,474,584 | 25.7% |
-| CSS | 1,953,900 | 9.2% |
+| JavaScript | 7,148,239 | 33.4% |
+| TypeScript | 6,220,529 | 29.0% |
+| HTML | 5,474,584 | 25.6% |
+| CSS | 1,953,900 | 9.1% |
 | Python | 574,410 | 2.7% |
 | TeX | 27,994 | 0.1% |
 | PLpgSQL | 11,293 | 0.1% |
@@ -188,17 +188,18 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,898 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,538 | 0 | 1 | 0 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,970 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,900 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,574 | 0 | 1 | 0 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,971 | 0 | 0 | 1 |
+| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,005 | 0 | 1 | 0 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 25,621 | 0 | 1 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,905 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,336 | 1 | 0 | 0 |
 | [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,378 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,180 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,426 | 0 | 1 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,181 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,425 | 0 | 1 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,025 | 0 | 1 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,660 | 1 | 0 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,661 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,645 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 682 | 1 | 0 | 0 |
 | [runvendo/vendo](https://github.com/runvendo/vendo) | 543 | 0 | 0 | 1 |
@@ -207,7 +208,6 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | [supabase/evals](https://github.com/supabase/evals) | 132 | 0 | 0 | 1 |
 | [OpenHikmah/openhikmah-web](https://github.com/OpenHikmah/openhikmah-web) | 112 | 1 | 0 | 0 |
 | [supabase/supautils](https://github.com/supabase/supautils) | 88 | 0 | 2 | 0 |
-| [Flutter-Journey/Fruit-Cutting-Game](https://github.com/Flutter-Journey/Fruit-Cutting-Game) | 49 | 0 | 0 | 0 |
 
 #### Streaks
 
@@ -216,7 +216,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | Current streak | 14 days |
 | Longest streak | 19 days |
 | Active days (last year) | 97 |
-| Total contributions | 731 |
+| Total contributions | 733 |
 
 <!-- DATA-TABLES:END -->
 
