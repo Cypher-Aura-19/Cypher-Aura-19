@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-24 10:08 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-24 13:25 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,23 +153,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | AUG | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 6 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 375 |
+| Count | 6 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 376 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 81 | 186 | 121 | 88 | 104 | 67 | 107 |
+| Count | 81 | 187 | 121 | 88 | 104 | 67 | 107 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 654 | 86.7% |
-| Pull Requests | 33 | 4.4% |
+| Commits | 654 | 86.6% |
+| Pull Requests | 34 | 4.5% |
 | Issues | 1 | 0.1% |
-| Repos Created | 66 | 8.8% |
-| **Total** | **754** | **100%** |
+| Repos Created | 66 | 8.7% |
+| **Total** | **755** | **100%** |
 
 #### Languages
 
@@ -188,23 +188,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,911 | 0 | 0 | 1 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,806 | 0 | 1 | 0 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,977 | 0 | 0 | 1 |
-| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,004 | 0 | 1 | 0 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,633 | 0 | 1 | 0 |
-| [shuding/nextra](https://github.com/shuding/nextra) | 13,907 | 0 | 1 | 0 |
-| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,334 | 1 | 0 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 12,293 | 0 | 1 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,427 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,211 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,446 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,544 | 0 | 1 | 0 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,913 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 38,846 | 0 | 1 | 0 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,978 | 0 | 0 | 1 |
+| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,005 | 0 | 1 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,635 | 0 | 1 | 0 |
+| [shuding/nextra](https://github.com/shuding/nextra) | 13,909 | 0 | 1 | 0 |
+| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,335 | 1 | 0 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 12,304 | 0 | 1 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,441 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,216 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,456 | 0 | 1 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,544 | 0 | 2 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,025 | 0 | 1 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,665 | 1 | 0 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,666 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,645 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 683 | 1 | 0 | 0 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 555 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 557 | 0 | 0 | 1 |
 | [nuxt-modules/sitemap](https://github.com/nuxt-modules/sitemap) | 437 | 1 | 0 | 0 |
 | [unlayer/elements](https://github.com/unlayer/elements) | 398 | 1 | 0 | 0 |
 | [supabase/evals](https://github.com/supabase/evals) | 132 | 0 | 0 | 1 |
@@ -216,7 +216,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | Current streak | 16 days |
 | Longest streak | 19 days |
 | Active days (last year) | 97 |
-| Total contributions | 754 |
+| Total contributions | 755 |
 
 <!-- DATA-TABLES:END -->
 
