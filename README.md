@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-25 09:55 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-25 13:16 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,23 +153,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | AUG | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 6 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 376 |
+| Count | 6 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 377 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 81 | 187 | 121 | 88 | 104 | 67 | 107 |
+| Count | 81 | 187 | 122 | 88 | 104 | 67 | 107 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 654 | 86.6% |
+| Commits | 655 | 86.6% |
 | Pull Requests | 34 | 4.5% |
 | Issues | 1 | 0.1% |
 | Repos Created | 66 | 8.7% |
-| **Total** | **755** | **100%** |
+| **Total** | **756** | **100%** |
 
 #### Languages
 
@@ -188,23 +188,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,929 | 0 | 0 | 1 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,110 | 0 | 1 | 0 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,981 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,933 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,123 | 0 | 1 | 0 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,982 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,009 | 0 | 1 | 0 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,640 | 0 | 1 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,642 | 0 | 1 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,911 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 12,354 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 12,366 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,336 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,477 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,235 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,488 | 0 | 1 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,486 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,240 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,495 | 0 | 1 | 0 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,546 | 0 | 2 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,025 | 0 | 1 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,663 | 1 | 0 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,664 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,646 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 683 | 1 | 0 | 0 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 565 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 567 | 0 | 0 | 1 |
 | [nuxt-modules/sitemap](https://github.com/nuxt-modules/sitemap) | 437 | 1 | 0 | 0 |
 | [unlayer/elements](https://github.com/unlayer/elements) | 398 | 1 | 0 | 0 |
 | [supabase/evals](https://github.com/supabase/evals) | 132 | 0 | 0 | 1 |
@@ -213,10 +213,10 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 16 days |
+| Current streak | 17 days |
 | Longest streak | 19 days |
-| Active days (last year) | 97 |
-| Total contributions | 755 |
+| Active days (last year) | 98 |
+| Total contributions | 756 |
 
 <!-- DATA-TABLES:END -->
 
