@@ -36,7 +36,7 @@
       <text x="330" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">1 OPEN</text>
       <rect x="470" y="87" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="87" width="135.1" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="87" width="135.2" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="95" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
             font-weight="700" fill="#7D8590">39.1k ★</text>
     </g>
@@ -64,7 +64,7 @@
       <rect x="20" y="146" width="3" height="15" fill="#E01B24"/>
       <text x="31" y="158" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">biomejs/biome</text>
       <text x="330" y="158" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
-            fill="#7D8590">1 OPEN</text>
+            fill="#7D8590">CLOSED</text>
       <rect x="470" y="150" width="314" height="9" rx="4.5" fill="#161619"/>
       <rect x="470" y="150" width="88.6" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="158" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
@@ -102,7 +102,7 @@
     </g>
   <rect x="20" y="223" width="840" height="1" fill="#212429"/>
   <text x="20" y="238" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8" letter-spacing="1.1" fill="#7D8590">
-    COMBINED REACH <tspan fill="#E01B24" font-weight="700">289.9k STARS</tspan>
+    COMBINED REACH <tspan fill="#E01B24" font-weight="700">290k STARS</tspan>
     <tspan fill="#212429"> │ </tspan>MERGED <tspan fill="#FF4C4C" font-weight="700">10</tspan>
   </text>
   <text x="860" y="238" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8"
