@@ -36,7 +36,7 @@
       <text x="330" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">1 OPEN</text>
       <rect x="470" y="87" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="87" width="135.3" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="87" width="135.4" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="95" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
             font-weight="700" fill="#7D8590">39.2k ★</text>
     </g>
@@ -46,7 +46,7 @@
       <text x="330" y="116" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">CLOSED</text>
       <rect x="470" y="108" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="108" width="110.4" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="108" width="110.5" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="116" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
             font-weight="700" fill="#7D8590">32k ★</text>
     </g>
