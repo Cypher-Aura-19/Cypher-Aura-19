@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-25 21:48 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-26 02:02 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -188,18 +188,18 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,934 | 0 | 0 | 1 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,151 | 0 | 1 | 0 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,982 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,933 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,168 | 0 | 1 | 0 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,985 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,010 | 0 | 1 | 0 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 25,646 | 0 | 0 | 1 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,911 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 12,405 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 12,418 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,337 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,514 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,243 | 0 | 1 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,515 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,248 | 0 | 1 | 0 |
 | [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,504 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,546 | 0 | 2 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,548 | 0 | 2 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,025 | 0 | 1 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,664 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,646 | 0 | 0 | 1 |
