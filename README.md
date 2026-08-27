@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-27 00:52 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-27 14:20 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,23 +153,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | AUG | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 6 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 377 |
+| Count | 6 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 380 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 81 | 187 | 122 | 88 | 104 | 67 | 107 |
+| Count | 81 | 187 | 124 | 88 | 105 | 67 | 107 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 655 | 86.6% |
-| Pull Requests | 34 | 4.5% |
+| Commits | 657 | 86.6% |
+| Pull Requests | 35 | 4.6% |
 | Issues | 1 | 0.1% |
 | Repos Created | 66 | 8.7% |
-| **Total** | **756** | **100%** |
+| **Total** | **759** | **100%** |
 
 #### Languages
 
@@ -188,35 +188,35 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,941 | 0 | 0 | 1 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,256 | 0 | 1 | 0 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,990 | 0 | 0 | 1 |
-| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,010 | 0 | 1 | 0 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,653 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,949 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,303 | 0 | 1 | 0 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 31,997 | 0 | 0 | 1 |
+| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,014 | 0 | 1 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,659 | 0 | 0 | 1 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,911 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 12,469 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 12,498 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,337 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,559 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,257 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,548 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,549 | 0 | 2 | 0 |
-| [mdn/translated-content](https://github.com/mdn/translated-content) | 2,025 | 0 | 1 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,666 | 1 | 0 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,565 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,260 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,553 | 0 | 1 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,551 | 0 | 3 | 0 |
+| [mdn/translated-content](https://github.com/mdn/translated-content) | 2,024 | 0 | 1 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,664 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,647 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 684 | 1 | 0 | 0 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 572 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 579 | 0 | 0 | 1 |
 | [nuxt-modules/sitemap](https://github.com/nuxt-modules/sitemap) | 437 | 1 | 0 | 0 |
 | [unlayer/elements](https://github.com/unlayer/elements) | 398 | 1 | 0 | 0 |
-| [supabase/evals](https://github.com/supabase/evals) | 132 | 0 | 0 | 1 |
+| [supabase/evals](https://github.com/supabase/evals) | 133 | 0 | 0 | 1 |
 
 #### Streaks
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 0 days |
+| Current streak | 1 days |
 | Longest streak | 19 days |
-| Active days (last year) | 98 |
-| Total contributions | 756 |
+| Active days (last year) | 99 |
+| Total contributions | 759 |
 
 <!-- DATA-TABLES:END -->
 
