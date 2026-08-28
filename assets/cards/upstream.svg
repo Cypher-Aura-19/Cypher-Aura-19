@@ -28,15 +28,15 @@
       <rect x="470" y="66" width="314" height="9" rx="4.5" fill="#161619"/>
       <rect x="470" y="66" width="314.0" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="74" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
-            font-weight="700" fill="#7D8590">90.9k ★</text>
+            font-weight="700" fill="#7D8590">91k ★</text>
     </g>
     <g class="fi" style="animation-delay:170ms">
       <rect x="20" y="83" width="3" height="15" fill="#E01B24"/>
       <text x="31" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">PostHog/posthog</text>
       <text x="330" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
-            fill="#7D8590">1 OPEN</text>
+            fill="#7D8590">CLOSED</text>
       <rect x="470" y="87" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="87" width="135.7" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="87" width="135.8" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="95" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
             font-weight="700" fill="#7D8590">39.3k ★</text>
     </g>
@@ -86,7 +86,7 @@
       <text x="330" y="200" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">1 OPEN</text>
       <rect x="470" y="192" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="192" width="43.1" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="192" width="43.2" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="200" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
             font-weight="700" fill="#7D8590">12.5k ★</text>
     </g>
@@ -102,8 +102,8 @@
     </g>
   <rect x="20" y="223" width="840" height="1" fill="#212429"/>
   <text x="20" y="238" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8" letter-spacing="1.1" fill="#7D8590">
-    COMBINED REACH <tspan fill="#E01B24" font-weight="700">290.4k STARS</tspan>
-    <tspan fill="#212429"> │ </tspan>MERGED <tspan fill="#FF4C4C" font-weight="700">10</tspan>
+    COMBINED REACH <tspan fill="#E01B24" font-weight="700">290.5k STARS</tspan>
+    <tspan fill="#212429"> │ </tspan>MERGED <tspan fill="#FF4C4C" font-weight="700">11</tspan>
   </text>
   <text x="860" y="238" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8"
         letter-spacing="1.1" fill="#7D8590">BRIGHT = MERGED UPSTREAM</text>
