@@ -21,12 +21,12 @@
     COMPOSITION BY BYTES WRITTEN
   </text>
   <rect x="20" y="56" width="400" height="16" rx="3" fill="#15151A"/>
-  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="140.13" height="16"
-        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="160.13" y="56" width="113.24" height="16"
-        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="273.36" y="56" width="100.03" height="16"
-        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="373.39" y="56" width="35.65" height="16"
-        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="409.03" y="56" width="10.46" height="16"
-        fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.49" y="56" width="2.00" height="16"
+  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="137.78" height="16"
+        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="157.78" y="56" width="117.99" height="16"
+        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="275.77" y="56" width="98.34" height="16"
+        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="374.12" y="56" width="35.10" height="16"
+        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="409.22" y="56" width="10.28" height="16"
+        fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.50" y="56" width="2.00" height="16"
         fill="#5C0A0F" class="fi" style="animation-delay:470ms"/></g>
   <clipPath id="slide"><rect x="20" y="56" width="400" height="16" rx="3"/></clipPath>
   <rect x="20" y="56" width="400" height="5" rx="2.5" fill="#FFFFFF" opacity="0.07"/>
@@ -35,25 +35,25 @@
       <rect x="20" y="98" width="9" height="9" rx="1.5" fill="#FF6B6B"/>
       <text x="36" y="106" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">JavaScript</text>
       <text x="210" y="106" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">35.0%</text>
+            font-weight="700" fill="#7D8590">34.4%</text>
     </g>
     <g class="fi" style="animation-delay:275ms">
       <rect x="230" y="98" width="9" height="9" rx="1.5" fill="#FF4C4C"/>
       <text x="246" y="106" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">TypeScript</text>
       <text x="420" y="106" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">28.3%</text>
+            font-weight="700" fill="#7D8590">29.5%</text>
     </g>
     <g class="fi" style="animation-delay:330ms">
       <rect x="20" y="128" width="9" height="9" rx="1.5" fill="#E01B24"/>
       <text x="36" y="136" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">HTML</text>
       <text x="210" y="136" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">25.0%</text>
+            font-weight="700" fill="#7D8590">24.6%</text>
     </g>
     <g class="fi" style="animation-delay:385ms">
       <rect x="230" y="128" width="9" height="9" rx="1.5" fill="#B5121B"/>
       <text x="246" y="136" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">CSS</text>
       <text x="420" y="136" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">8.9%</text>
+            font-weight="700" fill="#7D8590">8.8%</text>
     </g>
     <g class="fi" style="animation-delay:440ms">
       <rect x="20" y="158" width="9" height="9" rx="1.5" fill="#8E1219"/>
@@ -72,5 +72,5 @@
     PRIMARY <tspan fill="#E01B24" font-weight="700">JAVASCRIPT</tspan>
   </text>
   <text x="420" y="198" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8"
-        letter-spacing="1.1" fill="#7D8590">22M BYTES</text>
+        letter-spacing="1.1" fill="#7D8590">22.3M BYTES</text>
 </svg>
