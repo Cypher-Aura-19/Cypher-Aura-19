@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-08-29 23:25 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-08-30 05:32 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,23 +153,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | AUG | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 6 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 408 |
+| Count | 0 | 8 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 409 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 81 | 187 | 124 | 88 | 106 | 67 | 134 |
+| Count | 82 | 182 | 123 | 88 | 106 | 67 | 134 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 680 | 86.4% |
-| Pull Requests | 36 | 4.6% |
+| Commits | 680 | 86.3% |
+| Pull Requests | 37 | 4.7% |
 | Issues | 1 | 0.1% |
 | Repos Created | 70 | 8.9% |
-| **Total** | **787** | **100%** |
+| **Total** | **788** | **100%** |
 
 #### Languages
 
@@ -188,18 +188,18 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,962 | 0 | 0 | 1 |
-| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,578 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,469 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,009 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,961 | 0 | 0 | 1 |
+| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,577 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,475 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,010 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,018 | 0 | 1 | 0 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,675 | 0 | 0 | 1 |
-| [shuding/nextra](https://github.com/shuding/nextra) | 13,913 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 12,587 | 0 | 1 | 0 |
-| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,341 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,723 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,295 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,580 | 0 | 1 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,679 | 0 | 0 | 1 |
+| [shuding/nextra](https://github.com/shuding/nextra) | 13,912 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 12,590 | 0 | 1 | 0 |
+| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,340 | 1 | 0 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 10,732 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,297 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,595 | 0 | 1 | 0 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,562 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,024 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,673 | 1 | 0 | 0 |
@@ -213,10 +213,10 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 1 days |
+| Current streak | 2 days |
 | Longest streak | 19 days |
-| Active days (last year) | 100 |
-| Total contributions | 787 |
+| Active days (last year) | 99 |
+| Total contributions | 788 |
 
 <!-- DATA-TABLES:END -->
 
