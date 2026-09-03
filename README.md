@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-09-02 23:22 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-09-03 04:42 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -188,18 +188,18 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,985 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90,986 | 0 | 0 | 1 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56,577 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,565 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,030 | 0 | 0 | 1 |
-| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,017 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,567 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,034 | 0 | 0 | 1 |
+| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,018 | 0 | 1 | 0 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 25,701 | 0 | 0 | 1 |
-| [shuding/nextra](https://github.com/shuding/nextra) | 13,915 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 12,694 | 0 | 3 | 0 |
+| [shuding/nextra](https://github.com/shuding/nextra) | 13,916 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 12,697 | 0 | 3 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,341 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,310 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,381 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,719 | 0 | 1 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,311 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,384 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 5,723 | 0 | 1 | 0 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,568 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,027 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,678 | 1 | 0 | 0 |
