@@ -96,7 +96,7 @@
       <text x="330" y="221" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">3 OPEN</text>
       <rect x="470" y="213" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="213" width="44.0" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="213" width="44.1" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="221" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
             font-weight="700" fill="#7D8590">12.8k ★</text>
     </g>
