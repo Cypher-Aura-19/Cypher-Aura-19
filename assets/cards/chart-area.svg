@@ -54,8 +54,8 @@
       stroke="#212429" stroke-width="1" stroke-dasharray="3 4"/>
     <text x="36" y="61.5" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
       font-size="8.5" fill="#7D8590">500</text>
-  <path d="M46.0 218.1 C57.3 218.2,91.2 219.7,113.8 218.7 C136.4 217.7,159.1 215.0,181.7 212.2 C204.3 209.5,226.9 205.9,249.5 202.2 C272.1 198.5,294.7 187.7,317.3 189.9 C339.9 192.0,362.6 210.3,385.2 215.1 C407.8 220.0,430.4 218.9,453.0 219.0 C475.6 219.2,498.2 216.6,520.8 216.1 C543.4 215.6,566.1 215.9,588.7 216.1 C611.3 216.3,633.9 223.9,656.5 217.1 C679.1 210.3,701.7 197.4,724.3 175.3 C746.9 153.2,769.6 79.2,792.2 84.6 C814.8 89.9,848.7 186.9,860.0 207.4 L860.0 220.0 L46.0 220.0 Z" fill="url(#ag)" class="fi" style="animation-delay:200ms"/>
-  <path d="M46.0 218.1 C57.3 218.2,91.2 219.7,113.8 218.7 C136.4 217.7,159.1 215.0,181.7 212.2 C204.3 209.5,226.9 205.9,249.5 202.2 C272.1 198.5,294.7 187.7,317.3 189.9 C339.9 192.0,362.6 210.3,385.2 215.1 C407.8 220.0,430.4 218.9,453.0 219.0 C475.6 219.2,498.2 216.6,520.8 216.1 C543.4 215.6,566.1 215.9,588.7 216.1 C611.3 216.3,633.9 223.9,656.5 217.1 C679.1 210.3,701.7 197.4,724.3 175.3 C746.9 153.2,769.6 79.2,792.2 84.6 C814.8 89.9,848.7 186.9,860.0 207.4" fill="none" stroke="#E01B24" stroke-width="2.2" stroke-linecap="round" class="dr"/>
+  <path d="M46.0 218.1 C57.3 218.2,91.2 219.7,113.8 218.7 C136.4 217.7,159.1 215.0,181.7 212.2 C204.3 209.5,226.9 205.9,249.5 202.2 C272.1 198.5,294.7 187.7,317.3 189.9 C339.9 192.0,362.6 210.3,385.2 215.1 C407.8 220.0,430.4 218.9,453.0 219.0 C475.6 219.2,498.2 216.6,520.8 216.1 C543.4 215.6,566.1 215.9,588.7 216.1 C611.3 216.3,633.9 223.9,656.5 217.1 C679.1 210.3,701.7 197.4,724.3 175.3 C746.9 153.2,769.6 79.3,792.2 84.6 C814.8 89.8,848.7 186.4,860.0 206.7 L860.0 220.0 L46.0 220.0 Z" fill="url(#ag)" class="fi" style="animation-delay:200ms"/>
+  <path d="M46.0 218.1 C57.3 218.2,91.2 219.7,113.8 218.7 C136.4 217.7,159.1 215.0,181.7 212.2 C204.3 209.5,226.9 205.9,249.5 202.2 C272.1 198.5,294.7 187.7,317.3 189.9 C339.9 192.0,362.6 210.3,385.2 215.1 C407.8 220.0,430.4 218.9,453.0 219.0 C475.6 219.2,498.2 216.6,520.8 216.1 C543.4 215.6,566.1 215.9,588.7 216.1 C611.3 216.3,633.9 223.9,656.5 217.1 C679.1 210.3,701.7 197.4,724.3 175.3 C746.9 153.2,769.6 79.3,792.2 84.6 C814.8 89.8,848.7 186.4,860.0 206.7" fill="none" stroke="#E01B24" stroke-width="2.2" stroke-linecap="round" class="dr"/>
   <g class="fi" style="animation-delay:900ms"><circle cx="46.0" cy="218.1" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="113.8" cy="218.7" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="181.7" cy="212.2" r="3" fill="#0A0A0B"
@@ -68,7 +68,7 @@
           stroke="#E01B24" stroke-width="2"/><circle cx="656.5" cy="217.1" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="724.3" cy="175.3" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="792.2" cy="84.6" r="3" fill="#0A0A0B"
-          stroke="#E01B24" stroke-width="2"/><circle cx="860.0" cy="207.4" r="3" fill="#0A0A0B"
+          stroke="#E01B24" stroke-width="2"/><circle cx="860.0" cy="206.7" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/></g>
   <line x1="46" y1="220" x2="860" y2="220" stroke="#212429"/>
   <text x="46.0" y="240" text-anchor="middle"
@@ -298,14 +298,14 @@
   <g class="tip" style="animation-name:t12">
     <line x1="860.0" y1="58" x2="860.0" y2="220.0"
           stroke="#FF4C4C" stroke-width="1" stroke-dasharray="2 3" opacity="0.55"/>
-    <circle cx="860.0" cy="207.4" r="4.5" fill="#FF4C4C"
+    <circle cx="860.0" cy="206.7" r="4.5" fill="#FF4C4C"
             stroke="#0A0A0B" stroke-width="2"/>
-    <rect x="764.0" y="161.4" width="96" height="34" rx="6"
+    <rect x="764.0" y="160.7" width="96" height="34" rx="6"
           fill="#101014" stroke="#8E1219"/>
-    <text x="774.0" y="175.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
+    <text x="774.0" y="174.7" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
           font-size="8" letter-spacing="1.1" fill="#7D8590">SEP</text>
-    <text x="774.0" y="188.4" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
-          font-size="11" font-weight="700" fill="#E6EDF3">39 <tspan
+    <text x="774.0" y="187.7" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
+          font-size="11" font-weight="700" fill="#E6EDF3">41 <tspan
           font-size="7.5" font-weight="400" fill="#7D8590">CONTRIB</tspan></text>
   </g>
   <style>@keyframes t12{
