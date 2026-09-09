@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-09-09 21:00 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-09-09 23:21 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -191,7 +191,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | :-- | --: | --: | --: | --: |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,024 | 0 | 0 | 1 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56,577 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,719 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,723 | 0 | 0 | 1 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,100 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,024 | 0 | 1 | 0 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 25,751 | 0 | 0 | 1 |
@@ -200,8 +200,8 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | [facebook/astryx](https://github.com/facebook/astryx) | 12,869 | 0 | 3 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,340 | 1 | 0 | 0 |
 | [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,315 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,545 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 6,571 | 0 | 1 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,549 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 6,574 | 0 | 1 | 0 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,589 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,029 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,698 | 1 | 0 | 0 |
