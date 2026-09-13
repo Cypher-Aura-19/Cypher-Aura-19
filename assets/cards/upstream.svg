@@ -46,7 +46,7 @@
       <text x="330" y="116" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">CLOSED</text>
       <rect x="470" y="108" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="108" width="137.1" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="108" width="137.2" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="116" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
             font-weight="700" fill="#7D8590">39.8k ★</text>
     </g>
@@ -58,7 +58,7 @@
       <rect x="470" y="129" width="314" height="9" rx="4.5" fill="#161619"/>
       <rect x="470" y="129" width="110.9" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="137" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
-            font-weight="700" fill="#7D8590">32.1k ★</text>
+            font-weight="700" fill="#7D8590">32.2k ★</text>
     </g>
     <g class="fi" style="animation-delay:350ms">
       <rect x="20" y="146" width="3" height="15" fill="#E01B24"/>
