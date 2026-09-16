@@ -21,12 +21,12 @@
     COMPOSITION BY BYTES WRITTEN
   </text>
   <rect x="20" y="56" width="400" height="16" rx="3" fill="#15151A"/>
-  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="134.72" height="16"
-        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="154.72" y="56" width="116.06" height="16"
-        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="270.78" y="56" width="95.68" height="16"
-        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="366.46" y="56" width="34.22" height="16"
-        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="400.69" y="56" width="18.82" height="16"
-        fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.51" y="56" width="2.00" height="16"
+  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="134.71" height="16"
+        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="154.71" y="56" width="116.06" height="16"
+        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="270.77" y="56" width="95.67" height="16"
+        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="366.44" y="56" width="34.22" height="16"
+        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="400.67" y="56" width="18.82" height="16"
+        fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.49" y="56" width="2.00" height="16"
         fill="#5C0A0F" class="fi" style="animation-delay:470ms"/></g>
   <clipPath id="slide"><rect x="20" y="56" width="400" height="16" rx="3"/></clipPath>
   <rect x="20" y="56" width="400" height="5" rx="2.5" fill="#FFFFFF" opacity="0.07"/>
@@ -63,7 +63,7 @@
     </g>
     <g class="fi" style="animation-delay:495ms">
       <rect x="230" y="158" width="9" height="9" rx="1.5" fill="#5C0A0F"/>
-      <text x="246" y="166" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">TeX</text>
+      <text x="246" y="166" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">PLpgSQL</text>
       <text x="420" y="166" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
             font-weight="700" fill="#7D8590">0.1%</text>
     </g>
