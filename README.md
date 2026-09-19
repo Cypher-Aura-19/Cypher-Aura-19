@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-09-19 20:50 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-09-19 23:14 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -195,7 +195,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,183 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,032 | 0 | 1 | 0 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 25,827 | 0 | 0 | 1 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,127 | 0 | 0 | 1 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,128 | 0 | 0 | 1 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,925 | 0 | 1 | 0 |
 | [facebook/astryx](https://github.com/facebook/astryx) | 13,246 | 1 | 2 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,343 | 1 | 0 | 0 |
