@@ -136,14 +136,14 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-09-19 11:11 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-09-19 15:57 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
 | Metric | Count |
 | :-- | --: |
-| Public repositories | 99 |
-| Source (not forked) | 61 |
+| Public repositories | 100 |
+| Source (not forked) | 62 |
 | Forked | 38 |
 | Stars earned | 2 |
 | Forks of my work | 2 |
@@ -153,55 +153,55 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 4 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 418 | 284 |
+| Count | 4 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 418 | 286 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 98 | 220 | 185 | 145 | 168 | 120 | 135 |
+| Count | 98 | 220 | 185 | 145 | 168 | 120 | 137 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 956 | 89.3% |
+| Commits | 957 | 89.2% |
 | Pull Requests | 40 | 3.7% |
 | Issues | 1 | 0.1% |
-| Repos Created | 74 | 6.9% |
-| **Total** | **1,071** | **100%** |
+| Repos Created | 75 | 7.0% |
+| **Total** | **1,073** | **100%** |
 
 #### Languages
 
 | Language | Bytes | Share |
 | :-- | --: | --: |
-| JavaScript | 7,737,422 | 33.5% |
-| TypeScript | 6,715,846 | 29.1% |
-| HTML | 5,494,845 | 23.8% |
-| CSS | 1,967,216 | 8.5% |
-| Python | 1,081,097 | 4.7% |
+| HTML | 10,286,413 | 35.5% |
+| JavaScript | 7,990,015 | 27.5% |
+| TypeScript | 6,715,846 | 23.1% |
+| CSS | 2,865,282 | 9.9% |
+| Python | 1,081,097 | 3.7% |
 | PLpgSQL | 29,245 | 0.1% |
 | TeX | 27,994 | 0.1% |
-| Shell | 13,689 | 0.1% |
+| Shell | 13,689 | 0.0% |
 | Dockerfile | 2,900 | 0.0% |
 
 #### Upstream projects contributed to
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,099 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,098 | 0 | 0 | 1 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56,580 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,857 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,859 | 0 | 0 | 1 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,182 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,032 | 0 | 1 | 0 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,823 | 0 | 0 | 1 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,827 | 0 | 0 | 1 |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,127 | 0 | 0 | 1 |
-| [shuding/nextra](https://github.com/shuding/nextra) | 13,926 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 13,232 | 1 | 2 | 0 |
+| [shuding/nextra](https://github.com/shuding/nextra) | 13,925 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 13,238 | 1 | 2 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,343 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,463 | 1 | 0 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,466 | 1 | 0 | 0 |
 | [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,717 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 7,513 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 7,512 | 0 | 1 | 0 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,634 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,030 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,751 | 1 | 0 | 0 |
@@ -214,10 +214,10 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 13 days |
+| Current streak | 14 days |
 | Longest streak | 19 days |
-| Active days (last year) | 115 |
-| Total contributions | 1,071 |
+| Active days (last year) | 116 |
+| Total contributions | 1,073 |
 
 <!-- DATA-TABLES:END -->
 
