@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-09-22 05:09 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-09-22 11:51 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,23 +153,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | SEP | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 2 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 418 | 306 |
+| Count | 2 | 4 | 24 | 55 | 93 | 15 | 3 | 12 | 12 | 9 | 138 | 418 | 307 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 111 | 224 | 185 | 145 | 168 | 120 | 138 |
+| Count | 111 | 224 | 186 | 145 | 168 | 120 | 138 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 974 | 89.3% |
+| Commits | 975 | 89.3% |
 | Pull Requests | 41 | 3.8% |
 | Issues | 1 | 0.1% |
 | Repos Created | 75 | 6.9% |
-| **Total** | **1,091** | **100%** |
+| **Total** | **1,092** | **100%** |
 
 #### Languages
 
@@ -189,19 +189,19 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,122 | 0 | 0 | 1 |
-| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,584 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,891 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,198 | 0 | 0 | 1 |
-| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,033 | 0 | 1 | 0 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,842 | 0 | 0 | 1 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,142 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,126 | 0 | 0 | 1 |
+| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,581 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39,894 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,199 | 0 | 0 | 1 |
+| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,034 | 0 | 1 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,841 | 0 | 0 | 1 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,143 | 0 | 0 | 1 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,928 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 13,305 | 1 | 2 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 13,313 | 1 | 2 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,344 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,571 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,747 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 7,531 | 0 | 1 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,603 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,751 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 7,536 | 0 | 1 | 0 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,644 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,031 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,759 | 1 | 0 | 0 |
@@ -214,10 +214,10 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 16 days |
+| Current streak | 17 days |
 | Longest streak | 19 days |
-| Active days (last year) | 117 |
-| Total contributions | 1,091 |
+| Active days (last year) | 118 |
+| Total contributions | 1,092 |
 
 <!-- DATA-TABLES:END -->
 
