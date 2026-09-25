@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-09-24 21:36 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-09-25 05:06 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -190,31 +190,31 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,147 | 0 | 0 | 1 |
-| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,585 | 0 | 1 | 0 |
+| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,587 | 0 | 1 | 0 |
 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39,919 | 0 | 0 | 1 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,209 | 0 | 0 | 1 |
-| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,042 | 0 | 1 | 0 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,853 | 0 | 0 | 1 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,154 | 0 | 0 | 1 |
+| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,043 | 0 | 1 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,856 | 0 | 0 | 1 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,155 | 0 | 0 | 1 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,927 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 13,346 | 1 | 2 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 13,351 | 1 | 2 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,343 | 1 | 0 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 11,995 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,778 | 0 | 1 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 12,000 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,782 | 0 | 1 | 0 |
 | [superplanehq/superplane](https://github.com/superplanehq/superplane) | 7,552 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,650 | 0 | 3 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,652 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,032 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,768 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,654 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 698 | 1 | 0 | 0 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 622 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 624 | 0 | 0 | 1 |
 | [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 610 | 0 | 0 | 1 |
 
 #### Streaks
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 18 days |
+| Current streak | 0 days |
 | Longest streak | 19 days |
 | Active days (last year) | 119 |
 | Total contributions | 1,119 |
