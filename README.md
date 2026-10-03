@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-10-02 22:21 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-10-03 05:28 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -191,17 +191,17 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | :-- | --: | --: | --: | --: |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,196 | 0 | 0 | 1 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56,588 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,109 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,253 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,114 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,254 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,058 | 0 | 1 | 0 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 25,888 | 0 | 0 | 1 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,179 | 0 | 0 | 1 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,181 | 0 | 0 | 1 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,934 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 13,527 | 1 | 2 | 0 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 13,372 | 1 | 0 | 0 |
-| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,353 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,847 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 7,702 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 13,530 | 1 | 2 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 13,373 | 1 | 0 | 0 |
+| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,354 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,846 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 7,705 | 0 | 1 | 0 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,686 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,033 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,801 | 1 | 0 | 0 |
