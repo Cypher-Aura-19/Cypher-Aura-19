@@ -21,11 +21,11 @@
     COMPOSITION BY BYTES WRITTEN
   </text>
   <rect x="20" y="56" width="400" height="16" rx="3" fill="#15151A"/>
-  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="138.38" height="16"
-        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="158.38" y="56" width="108.73" height="16"
-        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="267.12" y="56" width="98.94" height="16"
-        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="366.06" y="56" width="39.02" height="16"
-        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="405.08" y="56" width="14.54" height="16"
+  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="138.12" height="16"
+        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="158.12" y="56" width="108.53" height="16"
+        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="266.65" y="56" width="99.51" height="16"
+        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="366.16" y="56" width="38.95" height="16"
+        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="405.11" y="56" width="14.51" height="16"
         fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.62" y="56" width="2.00" height="16"
         fill="#5C0A0F" class="fi" style="animation-delay:470ms"/></g>
   <clipPath id="slide"><rect x="20" y="56" width="400" height="16" rx="3"/></clipPath>
@@ -35,25 +35,25 @@
       <rect x="20" y="98" width="9" height="9" rx="1.5" fill="#FF6B6B"/>
       <text x="36" y="106" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">HTML</text>
       <text x="210" y="106" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">34.6%</text>
+            font-weight="700" fill="#7D8590">34.5%</text>
     </g>
     <g class="fi" style="animation-delay:275ms">
       <rect x="230" y="98" width="9" height="9" rx="1.5" fill="#FF4C4C"/>
       <text x="246" y="106" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">JavaScript</text>
       <text x="420" y="106" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">27.2%</text>
+            font-weight="700" fill="#7D8590">27.1%</text>
     </g>
     <g class="fi" style="animation-delay:330ms">
       <rect x="20" y="128" width="9" height="9" rx="1.5" fill="#E01B24"/>
       <text x="36" y="136" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">TypeScript</text>
       <text x="210" y="136" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">24.7%</text>
+            font-weight="700" fill="#7D8590">24.9%</text>
     </g>
     <g class="fi" style="animation-delay:385ms">
       <rect x="230" y="128" width="9" height="9" rx="1.5" fill="#B5121B"/>
       <text x="246" y="136" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">CSS</text>
       <text x="420" y="136" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">9.8%</text>
+            font-weight="700" fill="#7D8590">9.7%</text>
     </g>
     <g class="fi" style="animation-delay:440ms">
       <rect x="20" y="158" width="9" height="9" rx="1.5" fill="#8E1219"/>
@@ -72,5 +72,5 @@
     PRIMARY <tspan fill="#E01B24" font-weight="700">HTML</tspan>
   </text>
   <text x="420" y="198" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8"
-        letter-spacing="1.1" fill="#7D8590">29.7M BYTES</text>
+        letter-spacing="1.1" fill="#7D8590">29.8M BYTES</text>
 </svg>

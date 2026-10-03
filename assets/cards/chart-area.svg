@@ -30,7 +30,7 @@
   <text x="30" y="21.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="11" font-weight="700"
         letter-spacing="1.7" fill="#E6EDF3">VOLUME ANALYSIS · MONTHLY OUTPUT</text>
   <text x="866" y="21.5" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
-              letter-spacing="1.2" fill="#7D8590">PEAK 488 · SEP</text>
+              letter-spacing="1.2" fill="#7D8590">PEAK 497 · SEP</text>
   <path d="M6 19L6 6L19 6" fill="none" stroke="#E01B24" stroke-width="1.6" stroke-linecap="square"/><path d="M874 19L874 6L861 6" fill="none" stroke="#E01B24" stroke-width="1.6" stroke-linecap="square"/><path d="M6 241L6 254L19 254" fill="none" stroke="#E01B24" stroke-width="1.6" stroke-linecap="square"/><path d="M874 241L874 254L861 254" fill="none" stroke="#E01B24" stroke-width="1.6" stroke-linecap="square"/>
   <text x="20" y="50" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="1.2" fill="#7D8590">
     CONTRIBUTIONS PER MONTH · TRAILING 12 MONTHS
@@ -54,8 +54,8 @@
       stroke="#212429" stroke-width="1" stroke-dasharray="3 4"/>
     <text x="36" y="61.5" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
       font-size="8.5" fill="#7D8590">500</text>
-  <path d="M46.0 220.0 C56.4 219.8,87.7 220.0,108.6 218.7 C129.5 217.4,150.4 215.0,171.2 212.2 C192.1 209.5,213.0 205.9,233.8 202.2 C254.7 198.5,275.6 187.8,296.5 189.9 C317.3 192.0,338.2 210.0,359.1 214.8 C379.9 219.7,400.8 218.9,421.7 219.0 C442.6 219.2,463.4 216.3,484.3 215.8 C505.2 215.3,526.1 215.9,546.9 216.1 C567.8 216.3,588.7 223.9,609.5 217.1 C630.4 210.3,651.3 197.4,672.2 175.3 C693.0 153.2,713.9 103.5,734.8 84.6 C755.6 65.7,776.5 39.3,797.4 61.9 C818.3 84.5,849.6 193.6,860.0 220.0 L860.0 220.0 L46.0 220.0 Z" fill="url(#ag)" class="fi" style="animation-delay:200ms"/>
-  <path d="M46.0 220.0 C56.4 219.8,87.7 220.0,108.6 218.7 C129.5 217.4,150.4 215.0,171.2 212.2 C192.1 209.5,213.0 205.9,233.8 202.2 C254.7 198.5,275.6 187.8,296.5 189.9 C317.3 192.0,338.2 210.0,359.1 214.8 C379.9 219.7,400.8 218.9,421.7 219.0 C442.6 219.2,463.4 216.3,484.3 215.8 C505.2 215.3,526.1 215.9,546.9 216.1 C567.8 216.3,588.7 223.9,609.5 217.1 C630.4 210.3,651.3 197.4,672.2 175.3 C693.0 153.2,713.9 103.5,734.8 84.6 C755.6 65.7,776.5 39.3,797.4 61.9 C818.3 84.5,849.6 193.6,860.0 220.0" fill="none" stroke="#E01B24" stroke-width="2.2" stroke-linecap="round" class="dr"/>
+  <path d="M46.0 220.0 C56.4 219.8,87.7 220.0,108.6 218.7 C129.5 217.4,150.4 215.0,171.2 212.2 C192.1 209.5,213.0 205.9,233.8 202.2 C254.7 198.5,275.6 187.8,296.5 189.9 C317.3 192.0,338.2 210.0,359.1 214.8 C379.9 219.7,400.8 218.9,421.7 219.0 C442.6 219.2,463.4 216.3,484.3 215.8 C505.2 215.3,526.1 215.9,546.9 216.1 C567.8 216.3,588.7 223.9,609.5 217.1 C630.4 210.3,651.3 197.4,672.2 175.3 C693.0 153.2,713.9 104.0,734.8 84.6 C755.6 65.2,776.5 36.7,797.4 59.0 C818.3 81.2,849.6 191.5,860.0 218.1 L860.0 220.0 L46.0 220.0 Z" fill="url(#ag)" class="fi" style="animation-delay:200ms"/>
+  <path d="M46.0 220.0 C56.4 219.8,87.7 220.0,108.6 218.7 C129.5 217.4,150.4 215.0,171.2 212.2 C192.1 209.5,213.0 205.9,233.8 202.2 C254.7 198.5,275.6 187.8,296.5 189.9 C317.3 192.0,338.2 210.0,359.1 214.8 C379.9 219.7,400.8 218.9,421.7 219.0 C442.6 219.2,463.4 216.3,484.3 215.8 C505.2 215.3,526.1 215.9,546.9 216.1 C567.8 216.3,588.7 223.9,609.5 217.1 C630.4 210.3,651.3 197.4,672.2 175.3 C693.0 153.2,713.9 104.0,734.8 84.6 C755.6 65.2,776.5 36.7,797.4 59.0 C818.3 81.2,849.6 191.5,860.0 218.1" fill="none" stroke="#E01B24" stroke-width="2.2" stroke-linecap="round" class="dr"/>
   <g class="fi" style="animation-delay:900ms"><circle cx="46.0" cy="220.0" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="108.6" cy="218.7" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="171.2" cy="212.2" r="3" fill="#0A0A0B"
@@ -68,8 +68,8 @@
           stroke="#E01B24" stroke-width="2"/><circle cx="609.5" cy="217.1" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="672.2" cy="175.3" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/><circle cx="734.8" cy="84.6" r="3" fill="#0A0A0B"
-          stroke="#E01B24" stroke-width="2"/><circle cx="797.4" cy="61.9" r="3" fill="#0A0A0B"
-          stroke="#E01B24" stroke-width="2"/><circle cx="860.0" cy="220.0" r="3" fill="#0A0A0B"
+          stroke="#E01B24" stroke-width="2"/><circle cx="797.4" cy="59.0" r="3" fill="#0A0A0B"
+          stroke="#E01B24" stroke-width="2"/><circle cx="860.0" cy="218.1" r="3" fill="#0A0A0B"
           stroke="#E01B24" stroke-width="2"/></g>
   <line x1="46" y1="220" x2="860" y2="220" stroke="#212429"/>
   <text x="46.0" y="240" text-anchor="middle"
@@ -299,14 +299,14 @@
   <g class="tip" style="animation-name:t12">
     <line x1="797.4" y1="58" x2="797.4" y2="220.0"
           stroke="#FF4C4C" stroke-width="1" stroke-dasharray="2 3" opacity="0.55"/>
-    <circle cx="797.4" cy="61.9" r="4.5" fill="#FF4C4C"
+    <circle cx="797.4" cy="59.0" r="4.5" fill="#FF4C4C"
             stroke="#0A0A0B" stroke-width="2"/>
     <rect x="749.4" y="60.0" width="96" height="34" rx="6"
           fill="#101014" stroke="#8E1219"/>
     <text x="759.4" y="74.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
           font-size="8" letter-spacing="1.1" fill="#7D8590">SEP</text>
     <text x="759.4" y="87.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
-          font-size="11" font-weight="700" fill="#E6EDF3">488 <tspan
+          font-size="11" font-weight="700" fill="#E6EDF3">497 <tspan
           font-size="7.5" font-weight="400" fill="#7D8590">CONTRIB</tspan></text>
   </g>
   <style>@keyframes t12{
@@ -317,14 +317,14 @@
   <g class="tip" style="animation-name:t13">
     <line x1="860.0" y1="58" x2="860.0" y2="220.0"
           stroke="#FF4C4C" stroke-width="1" stroke-dasharray="2 3" opacity="0.55"/>
-    <circle cx="860.0" cy="220.0" r="4.5" fill="#FF4C4C"
+    <circle cx="860.0" cy="218.1" r="4.5" fill="#FF4C4C"
             stroke="#0A0A0B" stroke-width="2"/>
-    <rect x="764.0" y="174.0" width="96" height="34" rx="6"
+    <rect x="764.0" y="172.1" width="96" height="34" rx="6"
           fill="#101014" stroke="#8E1219"/>
-    <text x="774.0" y="188.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
+    <text x="774.0" y="186.1" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
           font-size="8" letter-spacing="1.1" fill="#7D8590">OCT</text>
-    <text x="774.0" y="201.0" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
-          font-size="11" font-weight="700" fill="#E6EDF3">0 <tspan
+    <text x="774.0" y="199.1" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace"
+          font-size="11" font-weight="700" fill="#E6EDF3">6 <tspan
           font-size="7.5" font-weight="400" fill="#7D8590">CONTRIB</tspan></text>
   </g>
   <style>@keyframes t13{
