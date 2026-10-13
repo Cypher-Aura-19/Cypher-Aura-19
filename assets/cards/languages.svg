@@ -21,10 +21,10 @@
     COMPOSITION BY BYTES WRITTEN
   </text>
   <rect x="20" y="56" width="400" height="16" rx="3" fill="#15151A"/>
-  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="141.62" height="16"
-        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="161.62" y="56" width="103.29" height="16"
-        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="264.91" y="56" width="93.96" height="16"
-        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="358.87" y="56" width="47.32" height="16"
+  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="141.68" height="16"
+        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="161.68" y="56" width="103.26" height="16"
+        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="264.94" y="56" width="93.94" height="16"
+        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="358.88" y="56" width="47.31" height="16"
         fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="406.19" y="56" width="13.38" height="16"
         fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.57" y="56" width="2.00" height="16"
         fill="#5C0A0F" class="fi" style="animation-delay:470ms"/></g>
