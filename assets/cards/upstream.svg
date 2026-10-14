@@ -76,9 +76,9 @@
       <text x="330" y="179" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#7D8590">CLOSED</text>
       <rect x="470" y="171" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="171" width="89.2" height="9" rx="4.5" fill="#E01B24"/>
+      <rect x="470" y="171" width="89.3" height="9" rx="4.5" fill="#E01B24"/>
       <text x="860" y="179" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
-            font-weight="700" fill="#7D8590">25.9k ★</text>
+            font-weight="700" fill="#7D8590">26k ★</text>
     </g>
     <g class="fi" style="animation-delay:470ms">
       <rect x="20" y="188" width="3" height="15" fill="#E01B24"/>
@@ -96,13 +96,13 @@
       <text x="330" y="221" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8.5" letter-spacing="0.9"
             fill="#FF4C4C">1 MERGED</text>
       <rect x="470" y="213" width="314" height="9" rx="4.5" fill="#161619"/>
-      <rect x="470" y="213" width="48.9" height="9" rx="4.5" fill="#FF4C4C"/>
+      <rect x="470" y="213" width="49.1" height="9" rx="4.5" fill="#FF4C4C"/>
       <text x="860" y="221" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="9.5"
-            font-weight="700" fill="#7D8590">14.2k ★</text>
+            font-weight="700" fill="#7D8590">14.3k ★</text>
     </g>
   <rect x="20" y="223" width="840" height="1" fill="#212429"/>
   <text x="20" y="238" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8" letter-spacing="1.1" fill="#7D8590">
-    COMBINED REACH <tspan fill="#E01B24" font-weight="700">375.2k STARS</tspan>
+    COMBINED REACH <tspan fill="#E01B24" font-weight="700">375.3k STARS</tspan>
     <tspan fill="#212429"> │ </tspan>MERGED <tspan fill="#FF4C4C" font-weight="700">12</tspan>
   </text>
   <text x="860" y="238" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8"
