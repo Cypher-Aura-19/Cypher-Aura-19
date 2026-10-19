@@ -21,11 +21,11 @@
     COMPOSITION BY BYTES WRITTEN
   </text>
   <rect x="20" y="56" width="400" height="16" rx="3" fill="#15151A"/>
-  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="182.81" height="16"
-        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="202.81" y="56" width="88.85" height="16"
-        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="291.66" y="56" width="74.58" height="16"
-        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="366.24" y="56" width="41.18" height="16"
-        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="407.42" y="56" width="12.24" height="16"
+  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="182.76" height="16"
+        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="202.76" y="56" width="88.90" height="16"
+        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="291.66" y="56" width="74.56" height="16"
+        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="366.22" y="56" width="41.21" height="16"
+        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="407.43" y="56" width="12.23" height="16"
         fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.66" y="56" width="2.00" height="16"
         fill="#5C0A0F" class="fi" style="animation-delay:470ms"/></g>
   <clipPath id="slide"><rect x="20" y="56" width="400" height="16" rx="3"/></clipPath>
