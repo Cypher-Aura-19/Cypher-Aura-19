@@ -136,14 +136,14 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-10-19 13:37 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-10-19 20:38 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
 | Metric | Count |
 | :-- | --: |
-| Public repositories | 104 |
-| Source (not forked) | 66 |
+| Public repositories | 105 |
+| Source (not forked) | 67 |
 | Forked | 38 |
 | Stars earned | 2 |
 | Forks of my work | 2 |
@@ -153,61 +153,61 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 0 | 24 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 112 |
+| Count | 0 | 24 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 116 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 157 | 241 | 271 | 162 | 179 | 172 | 208 |
+| Count | 157 | 245 | 271 | 162 | 179 | 172 | 208 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 1,271 | 91.4% |
+| Commits | 1,274 | 91.4% |
 | Pull Requests | 42 | 3.0% |
 | Issues | 1 | 0.1% |
-| Repos Created | 76 | 5.5% |
-| **Total** | **1,390** | **100%** |
+| Repos Created | 77 | 5.5% |
+| **Total** | **1,394** | **100%** |
 
 #### Languages
 
 | Language | Bytes | Share |
 | :-- | --: | --: |
-| HTML | 18,605,061 | 45.6% |
-| JavaScript | 9,049,598 | 22.2% |
-| TypeScript | 7,590,064 | 18.6% |
-| CSS | 4,194,680 | 10.3% |
-| Python | 1,245,200 | 3.1% |
-| PLpgSQL | 34,571 | 0.1% |
-| TeX | 27,994 | 0.1% |
+| HTML | 88,542,356 | 58.8% |
+| JavaScript | 44,774,217 | 29.7% |
+| TypeScript | 7,590,064 | 5.0% |
+| CSS | 5,358,388 | 3.6% |
+| RouterOS Script | 2,927,392 | 1.9% |
+| Python | 1,245,200 | 0.8% |
+| PLpgSQL | 34,571 | 0.0% |
+| TeX | 27,994 | 0.0% |
 | Shell | 13,689 | 0.0% |
 | Dockerfile | 2,900 | 0.0% |
-| Batchfile | 488 | 0.0% |
 
 #### Upstream projects contributed to
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,337 | 0 | 0 | 1 |
-| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,608 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,344 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,334 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,339 | 0 | 0 | 1 |
+| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,612 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,346 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,336 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,067 | 0 | 0 | 1 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,977 | 0 | 0 | 1 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,263 | 0 | 0 | 1 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,345 | 1 | 0 | 0 |
-| [shuding/nextra](https://github.com/shuding/nextra) | 13,937 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 13,698 | 1 | 2 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,978 | 0 | 0 | 1 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,264 | 0 | 0 | 1 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,391 | 1 | 0 | 0 |
+| [shuding/nextra](https://github.com/shuding/nextra) | 13,938 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 13,703 | 1 | 2 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,365 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,975 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,005 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,883 | 0 | 3 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,980 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,040 | 0 | 1 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,886 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,039 | 1 | 0 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,848 | 1 | 0 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,849 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,659 | 0 | 0 | 1 |
-| [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 720 | 1 | 0 | 0 |
+| [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 723 | 1 | 0 | 0 |
 | [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 633 | 0 | 0 | 1 |
 | [runvendo/vendo](https://github.com/runvendo/vendo) | 629 | 0 | 0 | 1 |
 
@@ -218,7 +218,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | Current streak | 15 days |
 | Longest streak | 22 days |
 | Active days (last year) | 138 |
-| Total contributions | 1,390 |
+| Total contributions | 1,394 |
 
 <!-- DATA-TABLES:END -->
 
