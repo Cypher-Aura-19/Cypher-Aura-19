@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-10-21 05:01 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-10-21 12:02 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -190,20 +190,20 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,337 | 0 | 0 | 1 |
-| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,613 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,366 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,350 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,332 | 0 | 0 | 1 |
+| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,616 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,372 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,351 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,070 | 0 | 0 | 1 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 25,980 | 0 | 0 | 1 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 25,979 | 0 | 0 | 1 |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,269 | 0 | 0 | 1 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,421 | 1 | 0 | 0 |
-| [shuding/nextra](https://github.com/shuding/nextra) | 13,940 | 0 | 1 | 0 |
-| [facebook/astryx](https://github.com/facebook/astryx) | 13,707 | 1 | 2 | 0 |
-| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,367 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,986 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,075 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,894 | 0 | 3 | 0 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,541 | 1 | 0 | 0 |
+| [shuding/nextra](https://github.com/shuding/nextra) | 13,941 | 0 | 1 | 0 |
+| [facebook/astryx](https://github.com/facebook/astryx) | 13,712 | 1 | 2 | 0 |
+| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,369 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 8,988 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,093 | 0 | 1 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,897 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,039 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,850 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,659 | 0 | 0 | 1 |
