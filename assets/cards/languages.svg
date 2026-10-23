@@ -21,12 +21,12 @@
     COMPOSITION BY BYTES WRITTEN
   </text>
   <rect x="20" y="56" width="400" height="16" rx="3" fill="#15151A"/>
-  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="236.34" height="16"
-        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="256.34" y="56" width="116.76" height="16"
-        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="373.10" y="56" width="21.41" height="16"
-        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="394.51" y="56" width="14.38" height="16"
-        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="408.89" y="56" width="7.47" height="16"
-        fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="416.35" y="56" width="3.65" height="16"
+  <g clip-path="url(#slide)"><rect x="20.00" y="56" width="236.17" height="16"
+        fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="256.17" y="56" width="116.87" height="16"
+        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="373.04" y="56" width="21.46" height="16"
+        fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="394.50" y="56" width="14.39" height="16"
+        fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="408.90" y="56" width="7.46" height="16"
+        fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="416.36" y="56" width="3.64" height="16"
         fill="#5C0A0F" class="fi" style="animation-delay:470ms"/></g>
   <clipPath id="slide"><rect x="20" y="56" width="400" height="16" rx="3"/></clipPath>
   <rect x="20" y="56" width="400" height="5" rx="2.5" fill="#FFFFFF" opacity="0.07"/>
@@ -35,7 +35,7 @@
       <rect x="20" y="98" width="9" height="9" rx="1.5" fill="#FF6B6B"/>
       <text x="36" y="106" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">HTML</text>
       <text x="210" y="106" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">59.1%</text>
+            font-weight="700" fill="#7D8590">59.0%</text>
     </g>
     <g class="fi" style="animation-delay:275ms">
       <rect x="230" y="98" width="9" height="9" rx="1.5" fill="#FF4C4C"/>
@@ -72,5 +72,5 @@
     PRIMARY <tspan fill="#E01B24" font-weight="700">HTML</tspan>
   </text>
   <text x="420" y="198" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="8"
-        letter-spacing="1.1" fill="#7D8590">156.9M BYTES</text>
+        letter-spacing="1.1" fill="#7D8590">157M BYTES</text>
 </svg>
