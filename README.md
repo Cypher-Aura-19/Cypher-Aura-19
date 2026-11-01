@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-10-31 19:22 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-11-01 00:13 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -151,25 +151,25 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 #### Contributions per month
 
-| Month | OCT | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT |
+| Month | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 0 | 24 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 |
+| Count | 24 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 | 1 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 157 | 251 | 311 | 191 | 217 | 177 | 218 |
+| Count | 158 | 251 | 311 | 191 | 217 | 177 | 218 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 1,402 | 92.1% |
+| Commits | 1,403 | 92.1% |
 | Pull Requests | 42 | 2.8% |
 | Issues | 1 | 0.1% |
 | Repos Created | 77 | 5.1% |
-| **Total** | **1,522** | **100%** |
+| **Total** | **1,523** | **100%** |
 
 #### Languages
 
@@ -192,33 +192,33 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | :-- | --: | --: | --: | --: |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,418 | 0 | 0 | 1 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56,626 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,553 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,556 | 0 | 0 | 1 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,416 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,082 | 0 | 0 | 1 |
 | [biomejs/biome](https://github.com/biomejs/biome) | 26,026 | 0 | 0 | 1 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,317 | 0 | 0 | 1 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,704 | 1 | 0 | 0 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,318 | 0 | 0 | 1 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,702 | 1 | 0 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,948 | 0 | 1 | 0 |
-| [meta/astryx](https://github.com/meta/astryx) | 13,815 | 1 | 2 | 0 |
+| [meta/astryx](https://github.com/meta/astryx) | 13,813 | 1 | 2 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,374 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,036 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,491 | 0 | 0 | 1 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,037 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,490 | 0 | 0 | 1 |
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2,973 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,041 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,865 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,657 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 732 | 1 | 0 | 0 |
 | [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 639 | 0 | 0 | 1 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 635 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 636 | 0 | 0 | 1 |
 
 #### Streaks
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 6 days |
+| Current streak | 7 days |
 | Longest streak | 22 days |
-| Active days (last year) | 148 |
-| Total contributions | 1,522 |
+| Active days (last year) | 149 |
+| Total contributions | 1,523 |
 
 <!-- DATA-TABLES:END -->
 
