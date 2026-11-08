@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-11-07 22:01 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-11-08 06:19 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,13 +153,13 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 24 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 | 13 |
+| Count | 21 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 | 13 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 158 | 251 | 313 | 191 | 221 | 178 | 223 |
+| Count | 158 | 250 | 311 | 191 | 221 | 178 | 223 |
 
 #### Contribution mix
 
@@ -190,26 +190,26 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,482 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,485 | 0 | 0 | 1 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56,631 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,690 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,454 | 0 | 0 | 1 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,694 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,455 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,094 | 0 | 0 | 1 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 26,055 | 0 | 0 | 1 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,346 | 0 | 0 | 1 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,689 | 1 | 0 | 0 |
-| [meta/astryx](https://github.com/meta/astryx) | 14,412 | 1 | 2 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 26,056 | 0 | 0 | 1 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,347 | 0 | 0 | 1 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,687 | 1 | 0 | 0 |
+| [meta/astryx](https://github.com/meta/astryx) | 14,747 | 1 | 2 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,949 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,379 | 1 | 0 | 0 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,087 | 0 | 1 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,843 | 0 | 0 | 1 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,027 | 0 | 3 | 0 |
-| [mdn/translated-content](https://github.com/mdn/translated-content) | 2,044 | 1 | 0 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,874 | 1 | 0 | 0 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,091 | 0 | 1 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,889 | 0 | 0 | 1 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,028 | 0 | 3 | 0 |
+| [mdn/translated-content](https://github.com/mdn/translated-content) | 2,043 | 1 | 0 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,876 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,657 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 739 | 1 | 0 | 0 |
 | [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 643 | 0 | 0 | 1 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 636 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 635 | 0 | 0 | 1 |
 
 #### Streaks
 
@@ -217,7 +217,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | :-- | --: |
 | Current streak | 3 days |
 | Longest streak | 22 days |
-| Active days (last year) | 153 |
+| Active days (last year) | 151 |
 | Total contributions | 1,535 |
 
 <!-- DATA-TABLES:END -->
