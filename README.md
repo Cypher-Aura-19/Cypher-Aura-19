@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-11-11 06:47 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-11-11 17:16 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,23 +153,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 21 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 | 16 |
+| Count | 21 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 | 19 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 158 | 252 | 311 | 191 | 221 | 178 | 224 |
+| Count | 158 | 252 | 311 | 194 | 221 | 178 | 224 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 1,416 | 92.2% |
+| Commits | 1,419 | 92.3% |
 | Pull Requests | 42 | 2.7% |
 | Issues | 1 | 0.1% |
-| Repos Created | 76 | 5.0% |
-| **Total** | **1,535** | **100%** |
+| Repos Created | 76 | 4.9% |
+| **Total** | **1,538** | **100%** |
 
 #### Languages
 
@@ -190,35 +190,35 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,523 | 0 | 0 | 1 |
-| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,635 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,737 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,472 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,531 | 0 | 0 | 1 |
+| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,637 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,740 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,476 | 0 | 0 | 1 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,095 | 0 | 0 | 1 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 26,087 | 0 | 0 | 1 |
-| [meta/astryx](https://github.com/meta/astryx) | 23,594 | 1 | 0 | 2 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,361 | 0 | 0 | 1 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,674 | 1 | 0 | 0 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 26,092 | 0 | 0 | 1 |
+| [meta/astryx](https://github.com/meta/astryx) | 24,552 | 1 | 0 | 2 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,364 | 0 | 0 | 1 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,675 | 1 | 0 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,954 | 0 | 1 | 0 |
-| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,384 | 1 | 0 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 9,887 | 0 | 0 | 1 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,106 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,040 | 0 | 3 | 0 |
-| [mdn/translated-content](https://github.com/mdn/translated-content) | 2,043 | 1 | 0 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,887 | 1 | 0 | 0 |
+| [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,383 | 1 | 0 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 10,024 | 0 | 0 | 1 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,105 | 0 | 1 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,041 | 0 | 3 | 0 |
+| [mdn/translated-content](https://github.com/mdn/translated-content) | 2,045 | 1 | 0 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,892 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,657 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 741 | 1 | 0 | 0 |
 | [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 645 | 0 | 0 | 1 |
-| [runvendo/vendo](https://github.com/runvendo/vendo) | 638 | 0 | 0 | 1 |
+| [runvendo/vendo](https://github.com/runvendo/vendo) | 639 | 0 | 0 | 1 |
 
 #### Streaks
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 0 days |
+| Current streak | 1 days |
 | Longest streak | 22 days |
-| Active days (last year) | 152 |
-| Total contributions | 1,535 |
+| Active days (last year) | 153 |
+| Total contributions | 1,538 |
 
 <!-- DATA-TABLES:END -->
 
