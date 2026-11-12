@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-11-12 11:30 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-11-12 20:07 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -153,23 +153,23 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Month | NOV | DEC | JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| Count | 21 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 | 23 |
+| Count | 21 | 55 | 93 | 16 | 3 | 13 | 12 | 9 | 138 | 418 | 497 | 244 | 24 |
 
 #### Contributions by weekday
 
 | Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| Count | 158 | 252 | 311 | 194 | 225 | 178 | 224 |
+| Count | 158 | 252 | 311 | 194 | 226 | 178 | 224 |
 
 #### Contribution mix
 
 | Type | Count | Share |
 | :-- | --: | --: |
-| Commits | 1,423 | 92.3% |
+| Commits | 1,424 | 92.3% |
 | Pull Requests | 42 | 2.7% |
 | Issues | 1 | 0.1% |
 | Repos Created | 76 | 4.9% |
-| **Total** | **1,542** | **100%** |
+| **Total** | **1,543** | **100%** |
 
 #### Languages
 
@@ -190,22 +190,22 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,543 | 0 | 0 | 1 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,548 | 0 | 0 | 1 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56,637 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,756 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,478 | 0 | 0 | 1 |
-| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,095 | 0 | 0 | 1 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 26,102 | 0 | 0 | 1 |
-| [meta/astryx](https://github.com/meta/astryx) | 25,877 | 1 | 0 | 2 |
-| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,372 | 0 | 0 | 1 |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,672 | 1 | 0 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40,762 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,477 | 0 | 0 | 1 |
+| [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,096 | 0 | 0 | 1 |
+| [meta/astryx](https://github.com/meta/astryx) | 26,348 | 1 | 0 | 2 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 26,108 | 0 | 0 | 1 |
+| [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,376 | 0 | 0 | 1 |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,669 | 1 | 0 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,953 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,383 | 1 | 0 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 10,027 | 0 | 0 | 1 |
-| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,106 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,045 | 0 | 3 | 0 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 10,031 | 0 | 0 | 1 |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,109 | 0 | 1 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,046 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,047 | 1 | 0 | 0 |
-| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,898 | 1 | 0 | 0 |
+| [Portabase/portabase](https://github.com/Portabase/portabase) | 1,901 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,657 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 741 | 1 | 0 | 0 |
 | [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 645 | 0 | 0 | 1 |
@@ -218,7 +218,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 | Current streak | 2 days |
 | Longest streak | 22 days |
 | Active days (last year) | 154 |
-| Total contributions | 1,542 |
+| Total contributions | 1,543 |
 
 <!-- DATA-TABLES:END -->
 
