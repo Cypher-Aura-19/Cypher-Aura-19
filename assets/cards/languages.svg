@@ -23,7 +23,7 @@
   <rect x="20" y="56" width="400" height="16" rx="3" fill="#15151A"/>
   <g clip-path="url(#slide)"><rect x="20.00" y="56" width="182.60" height="16"
         fill="#FF6B6B" class="fi" style="animation-delay:120ms"/><rect x="202.60" y="56" width="88.81" height="16"
-        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="291.41" y="56" width="74.77" height="16"
+        fill="#FF4C4C" class="fi" style="animation-delay:190ms"/><rect x="291.41" y="56" width="74.78" height="16"
         fill="#E01B24" class="fi" style="animation-delay:260ms"/><rect x="366.19" y="56" width="41.25" height="16"
         fill="#B5121B" class="fi" style="animation-delay:330ms"/><rect x="407.44" y="56" width="12.22" height="16"
         fill="#8E1219" class="fi" style="animation-delay:400ms"/><rect x="419.66" y="56" width="2.00" height="16"
@@ -35,7 +35,7 @@
       <rect x="20" y="98" width="9" height="9" rx="1.5" fill="#FF6B6B"/>
       <text x="36" y="106" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#E6EDF3">HTML</text>
       <text x="210" y="106" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5"
-            font-weight="700" fill="#7D8590">45.7%</text>
+            font-weight="700" fill="#7D8590">45.6%</text>
     </g>
     <g class="fi" style="animation-delay:275ms">
       <rect x="230" y="98" width="9" height="9" rx="1.5" fill="#FF4C4C"/>
