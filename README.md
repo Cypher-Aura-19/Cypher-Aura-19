@@ -136,7 +136,7 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 <!-- DATA-TABLES:START -->
 
-**Synced** `2026-11-21 19:29 UTC` · **Source** GitHub GraphQL API
+**Synced** `2026-11-22 01:25 UTC` · **Source** GitHub GraphQL API
 
 #### Repositories
 
@@ -190,32 +190,32 @@ Every merged PR is a slide in the archive. I keep the collection tidy —
 
 | Project | Stars | Merged | Open | Closed |
 | :-- | --: | --: | --: | --: |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,676 | 0 | 0 | 1 |
-| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,647 | 0 | 1 | 0 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 41,001 | 0 | 0 | 1 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,528 | 0 | 0 | 1 |
-| [meta/astryx](https://github.com/meta/astryx) | 31,718 | 1 | 0 | 2 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91,673 | 0 | 0 | 1 |
+| [remix-run/react-router](https://github.com/remix-run/react-router) | 56,648 | 0 | 1 | 0 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 41,007 | 0 | 0 | 1 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32,530 | 0 | 0 | 1 |
+| [meta/astryx](https://github.com/meta/astryx) | 31,817 | 1 | 0 | 2 |
 | [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) | 29,103 | 0 | 0 | 1 |
-| [biomejs/biome](https://github.com/biomejs/biome) | 26,171 | 0 | 0 | 1 |
+| [biomejs/biome](https://github.com/biomejs/biome) | 26,169 | 0 | 0 | 1 |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 17,420 | 0 | 0 | 1 |
 | [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,629 | 1 | 0 | 0 |
 | [shuding/nextra](https://github.com/shuding/nextra) | 13,956 | 0 | 1 | 0 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12,390 | 1 | 0 | 0 |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 10,125 | 0 | 0 | 1 |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 10,127 | 0 | 0 | 1 |
 | [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 9,144 | 0 | 1 | 0 |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,118 | 0 | 3 | 0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | 3,121 | 0 | 3 | 0 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 2,048 | 1 | 0 | 0 |
 | [Portabase/portabase](https://github.com/Portabase/portabase) | 1,926 | 1 | 0 | 0 |
 | [saas-js/saas-ui](https://github.com/saas-js/saas-ui) | 1,658 | 0 | 0 | 1 |
 | [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | 743 | 1 | 0 | 0 |
-| [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 652 | 0 | 0 | 1 |
+| [PostHog/posthog-js](https://github.com/PostHog/posthog-js) | 654 | 0 | 0 | 1 |
 | [runvendo/vendo](https://github.com/runvendo/vendo) | 640 | 0 | 0 | 1 |
 
 #### Streaks
 
 | Metric | Value |
 | :-- | --: |
-| Current streak | 1 days |
+| Current streak | 0 days |
 | Longest streak | 22 days |
 | Active days (last year) | 153 |
 | Total contributions | 1,536 |
